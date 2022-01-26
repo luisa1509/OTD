@@ -238,3 +238,9 @@ input:checked + .slide:before {
 .dark-mode .RAD{
     margin-top: 80px;
 }
+
+.imgs{
+    background-size: cover;
+    margin: 15px;
+    align-items: center;
+}
