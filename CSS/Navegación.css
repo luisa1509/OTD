@@ -1,8 +1,9 @@
 body{
     margin: 0;
-    background-color: #17171C;
+    background-color: white;
     font-family: Avenir LT Std;
 }
+
 
 .nav__principal{
     width: 100%;
@@ -18,9 +19,9 @@ body{
     
 }
 input{
-    background-color:#6066AA ;
+    background-color:#CC3454 ;
     background-size: cover;
-    color: #9CA1CF;
+    color: #EFD7DC;
     border-radius: 20px;
     border-color: transparent;
     width: 273px;
@@ -29,7 +30,7 @@ input{
     outline:none;
 }
 ::placeholder{
-    color: #9CA1CF;
+    color: #DEBFC5;
 }
 
 .switchBtn {
@@ -112,10 +113,11 @@ input:checked + .slide:before {
     margin-top: 10px;
 }
 .sections:hover{
-    background-color:#6066AA ;
+    
+    background-color:#CC3454 ;
 }
 .here{
-    background-color:#6066AA ;
+    background-color:#CC3454 ;
 }
 
 .imgs{
@@ -139,12 +141,12 @@ input:checked + .slide:before {
     font-size: 13px;
     align-items: center;
     margin-top: 15px;
-    color: white;
+    color: #52525A;
 }
 
 .graphics{
     width: 75%;
-    background-color: #3A3A42;
+    background-color: #CC3454;
     border-radius: 40px;
     display: flex;
     margin-bottom: 30px;
@@ -161,6 +163,63 @@ input:checked + .slide:before {
 .buttons{
     width: 181px;
     height: 31px;
+    background: white;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #CC3454;
+    animation: 2s, ease-in;
+    border-color: transparent;
+    margin-left: 260px;;
+    margin-top: 38px;
+
+}
+
+.buttons:hover {
+    background-color: darken(#6066AA, 6%);
+  }
+
+
+
+
+.dark-mode{
+    background-color: #17171C;
+    transition:background-color .5s;
+}
+
+.dark-mode .form__label{
+    background-color: white;
+    transition:background-color .5s;
+}
+
+.dark-mode .input{
+    background-color:#6066AA ;
+    background-size: cover;
+    color: #9CA1CF;
+}
+
+.dark-mode ::placeholder{
+    color: #9CA1CF;
+}
+
+.dark-mode .sections:hover{
+    background-color:#6066AA ;
+}
+.dark-mode .here{
+    background-color:#6066AA ;
+}
+
+.dark-mode .graphics{
+    width: 75%;
+    background-color: #3A3A42;
+}
+
+.dark-mode .sections__name{
+    color: white;
+}
+
+.dark-mode .buttons{
+    width: 181px;
+    height: 31px;
     background: #6066AA;
     border-radius: 10px;
     font-size: 13px;
@@ -172,6 +231,10 @@ input:checked + .slide:before {
 
 }
 
-.buttons:hover {
-    background-color: darken(#6066AA, 6%);
-  }
+.dark-mode .logo{
+    margin-top: 80px;
+}
+
+.dark-mode .RAD{
+    margin-top: 80px;
+}
