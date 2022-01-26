@@ -115,6 +115,8 @@ input:checked + .slide:before {
 .sections:hover{
     
     background-color:#CC3454 ;
+    background-image: "../Imgs/institucioneswhite.png";
+    
 }
 .here{
     background-color:#CC3454 ;
@@ -142,6 +144,10 @@ input:checked + .slide:before {
     align-items: center;
     margin-top: 15px;
     color: #52525A;
+}
+
+.sections_name:hover{
+    color: white;
 }
 
 .graphics{
@@ -243,4 +249,8 @@ input:checked + .slide:before {
     background-size: cover;
     margin: 15px;
     align-items: center;
+}
+
+.dark-mode .sections_name{
+    color: white;
 }
