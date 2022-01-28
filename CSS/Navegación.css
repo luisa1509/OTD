@@ -2,6 +2,7 @@ body{
     margin: 0;
     background-color: white;
     font-family: Avenir LT Std;
+    overflow-x: hidden;
 }
 
 
@@ -119,7 +120,8 @@ input:checked + .slide:before {
     
 }
 .here{
-    background-color:#CC3454 ;
+    background-color:#CC3454;
+    color: white;
 }
 
 .imgs{
@@ -146,16 +148,29 @@ input:checked + .slide:before {
     color: #52525A;
 }
 
+.sections__here{
+    font-size: 13px;
+    align-items: center;
+    margin-top: 15px;
+    color: white;
+}
+
 .sections_name:hover{
     color: white;
 }
 
-.graphics{
+.content{
     width: 75%;
     background-color: #CC3454;
     border-radius: 40px;
     display: flex;
+    flex-direction: column;
     margin-bottom: 30px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
 }
 
 .namepage{
@@ -184,7 +199,32 @@ input:checked + .slide:before {
     background-color: darken(#6066AA, 6%);
   }
 
+.graphics{
+    width: auto;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.graphicone{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
 
+.filters{
+    align-items: flex-start;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #CC3454;
+}
+
+/*DARK MODE*/
 
 
 .dark-mode{
@@ -214,7 +254,7 @@ input:checked + .slide:before {
     background-color:#6066AA ;
 }
 
-.dark-mode .graphics{
+.dark-mode .content{
     width: 75%;
     background-color: #3A3A42;
 }
