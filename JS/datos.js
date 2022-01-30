@@ -99,5 +99,12 @@ const institutions = [
         color: '#97D8C4'
     }
     
-]
+];
+
+const institutions = document.querySelector('.content-institutions');
+const newInstitution = document.createElement('.institution');
+newInstitution.classList.add('.institution');
+newInstitution.innerHTML =  `
+<h3 class="institution_title">Institución</h3>`;
+institutions.appendChild(newInstitution);
 
