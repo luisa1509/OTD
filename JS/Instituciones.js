@@ -1,6 +1,4 @@
-window.onscroll = function () {
-  window.scrollTo(0,0);
-}
+
 
 let nav = document.querySelector(".nav_principal");
 let body = document.querySelector("body");
