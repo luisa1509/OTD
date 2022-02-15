@@ -2,7 +2,7 @@
 
     position: relative;
     display: inline-block;
-    width: 60px;
+ 
     height: 34px;
     margin-right: 20px;
     cursor: pointer;
@@ -25,12 +25,37 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-right: 1px solid transparent;
+    background-color: #EFD7DC;
+  }
+
+  .btn-mode.sun:hover{
+      background-color: #bb8a93;
+
+  }
+
+  .id-sun-img{
+    display:block;
+    margin:auto;
+    margin-top: 4px;
+
   }
   .btn-mode.moon{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: #6066AA;
   }
+
+  .btn-mode.moon:hover{
+    background-color: #9ca1d1;
+
+  }
+
+  .id-moon-img{
+    display:block;
+    margin:auto;
+    margin-top: 5px;
+  }
+
   .active{
     background-color:#EFD7DC;
     color:#ffcd5c !important;
@@ -318,6 +343,7 @@ No funciono jajan't*/
 	border-bottom:4px solid #CC3454;
 	transform: rotate(-45deg); /* Giramos el cuadrado */
 	transition: all 0.25s ease;
+    z-index: 4;
 }
 
 .select:hover i{
@@ -403,7 +429,8 @@ No funciono jajan't*/
     background-color: #6066AA;
     border-color: transparent;
     color: white;
- 
+    transition:background-color .5s;
+
 }
 
 
@@ -412,3 +439,14 @@ No funciono jajan't*/
     color: #3A3A42;
 }
 
+/*imagenes
+
+.dark-mode .logo{
+    background: url("/Imgs/logodark.png");
+    box-sizing: border-box;
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+*/
