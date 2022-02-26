@@ -1,0 +1,291 @@
+.container-btn-mode{
+
+    position: relative;
+    display: inline-block;
+ 
+    height: 34px;
+    margin-right: 20px;
+    cursor: pointer;
+    z-index: 2;
+    font-size:0;
+  }
+  .btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    transition: background-color .5s;
+  }
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+    background-color: #EFD7DC;
+  }
+
+  .btn-mode.sun:hover{
+      background-color: #bb8a93;
+
+  }
+
+  .id-sun-img{
+    display:block;
+    margin:auto;
+    margin-top: 4px;
+
+  }
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #6066AA;
+  }
+
+  .btn-mode.moon:hover{
+    background-color: #9ca1d1;
+
+  }
+
+  .id-moon-img{
+    display:block;
+    margin:auto;
+    margin-top: 5px;
+  }
+
+  .active{
+    background-color:#EFD7DC;
+    color:#ffcd5c !important;
+  }
+
+body{
+    margin: 0;
+    background-color: white;
+    font-family: Avenir LT Std;
+    overflow-x: hidden;
+    transition:background-color .5s;
+}
+
+
+.nav__principal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 50px;
+}
+
+.logo{
+    margin-top: 40px;
+}
+
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.imgs{
+    background-size: cover;
+    margin: 15px;
+    align-items: center;
+}
+
+.logo{
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.RAD{
+    margin-top: 80px;
+}
+
+
+.content{
+    margin: auto;
+    width: 80%;
+    background-color: #CC3454;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    color: white;
+    transition:background-color .5s;
+    
+}
+
+.title{
+    text-align:center;
+    color: white;
+}
+
+.namepage{
+    font-size: 18px;
+    justify-items: center;
+    text-align:center;
+    color: white;
+    margin-left: 30px;;
+    margin-top: 40px;
+}
+
+.textone{
+    font-weight: lighter;
+    margin: auto;
+    width: 50%;
+    font-size: 14px;
+    font-family: Avenir LT Std;
+}
+
+.texttwo{
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+    margin: auto;
+    width: 80%;
+    font-family: Avenir LT Std;
+
+}
+
+.colciencias{
+    border-color: #DC4A68;
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: #D23D5C;
+    margin: auto;
+    width: 50%;
+}
+
+.sectionbuttons{
+    align-items: center;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+.buttons{
+    width: 200px;
+    height: 100px;
+    background: #FFE9CE;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #CC3454;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 14px;
+    animation: 2s, ease-in;
+    border-color: transparent;
+    margin-top: 38px;
+    font-family: Avenir LT Std;
+    transition:background-color .5s;
+
+}
+
+.buttons:hover {
+    background-color: darken(#6066AA, 6%);
+  }
+
+
+
+/*DARK MODE*/
+
+
+.dark-mode{
+    background-color: #17171C;
+    transition:background-color .5s;
+}
+
+.dark-mode .form__label{
+    background-color: white;
+    transition:background-color .5s;
+}
+
+.dark-mode .input{
+    background-color:#6066AA ;
+    background-size: cover;
+    color: #9CA1CF;
+    transition:background-color .5s;
+}
+
+.dark-mode ::placeholder{
+    color: #9CA1CF;
+    transition:background-color .5s;
+}
+
+.dark-mode .sections:hover{
+    background-color:#6066AA ;
+    transition:background-color .5s;
+}
+.dark-mode .here{
+    background-color:#6066AA ;
+    transition:background-color .5s;
+}
+
+.dark-mode .content{
+
+    background-color: #3A3A42;
+    transition:background-color .5s;
+}
+
+.dark-mode .sections__name{
+    color: white;
+    transition:background-color .5s;
+}
+
+.dark-mode .buttons{
+
+    background-color: #6066AA;
+    color: white;
+    animation: 2s, ease-in;
+    border-color: transparent;
+    transition:background-color .5s;
+
+
+}
+
+
+.dark-mode .form__label{
+    background-color: #17171C;
+    transition:background-color .5s;
+
+}
+
+.dark-mode input{
+    background-color: #3A3A42;
+}
+
+.dark-mode .graphicone{
+    background-color: #17171C;
+
+}
+
+.dark-mode .filters select{
+    background-color: #6066AA;
+    border-color: transparent;
+    color: white;
+    transition:background-color .5s;
+
+}
+
+
+.dark-mode .filters select:hover{
+	background: #9ca1d1;
+    color: #3A3A42;
+}
+
+/*imagenes
+
+.dark-mode .logo{
+    background: url("/Imgs/logodark.png");
+    box-sizing: border-box;
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+*/

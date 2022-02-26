@@ -1,5 +1,3 @@
-
-
 let nav = document.querySelector(".nav_principal");
 let body = document.querySelector("body");
 
@@ -11,8 +9,23 @@ function cambiarLogoLight(){
   document.getElementById("logo").src="/Imgs/logolight.png";
 }
 
+function cambiarIconosDark(){
+  document.getElementById("grupos").src="/Imgs/grupoblack.png";
+  document.getElementById("convocatorias").src="/Imgs/convocatoriaswhite.png";
+  document.getElementById("investigadores").src="/Imgs/investigadoreswhite.png";
+  /*document.getElementById("proyectos").src="/Imgs/proyectoswhite.png";*/
+}
+
+function cambiarIconosLight(){
+  document.getElementById("grupos").src="/Imgs/grupowhite.png";
+  document.getElementById("convocatorias").src="/Imgs/convocatoriasblack.png";
+  document.getElementById("investigadores").src="/Imgs/investigadoresblack.png";
+  /*document.getElementById("proyectos").src="/Imgs/proyectosblack.png";*/
+}
+
 document.getElementById('id-sun').onclick = function(){
   cambiarLogoLight();
+  cambiarIconosLight();
   body.classList.remove('dark-mode');
   nav.classList.remove('dark-mode');
 
@@ -23,6 +36,7 @@ document.getElementById('id-sun').onclick = function(){
 con id page y se aplicará el estilo active a la luna*/
 document.getElementById('id-moon').onclick = function(){
   cambiarLogoDark();
+  cambiarIconosDark();
   body.classList.add('dark-mode')
   nav.classList.add('dark-mode');
 
