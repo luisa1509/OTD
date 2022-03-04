@@ -282,11 +282,24 @@ input:checked + .slide:before {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 50%;
+    width: auto;
     border-radius: 20px;
     margin: 20px;
     transition:background-color .5s;
     
+}
+
+.titleone{
+    color:#CC3454;
+    margin-left: 50px;
+    font-family: Avenir LT Std;
+    justify-content: center;
+    
+}
+
+.container{
+    margin: 20px;
+    justify-content: center;
 }
 
 /*Aqui le decimos a la pagina que no aplique apariencias por defecto*/
@@ -312,7 +325,9 @@ input:checked + .slide:before {
 .filters{
     align-items: flex-start;
     margin: 10px;
-    border-radius: 10px;
+    width: auto;
+    height: auto;
+
 
 }
 
