@@ -4,7 +4,7 @@
     display: inline-block;
  
     height: 34px;
-    margin-right: 20px;
+    margin-right: 100px;
     cursor: pointer;
     z-index: 2;
     font-size:0;
@@ -189,6 +189,103 @@ body{
 .buttons:hover {
     background-color: darken(#6066AA, 6%);
   }
+
+
+.container-btn-otd{
+    position: fixed;
+    flex: auto;
+    align-items: flex-end;
+
+    display: inline-block;
+    height: 100px;
+    margin-right: 100px;
+    cursor: pointer;
+    z-index: 5;
+    font-size:0;
+  }
+.btn-otd{
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    transition: background-color .5s;
+  }
+.btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+.btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+    background-color: #EFD7DC;
+  }
+
+
+
+.btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #6066AA;
+  }
+
+
+  .id-moon-img{
+    display:block;
+    margin:auto;
+    margin-top: 5px;
+  }
+
+  .container-btn-mode{
+
+    position: relative;
+    display: inline-block;
+ 
+    height: 34px;
+    margin-right: 100px;
+    cursor: pointer;
+    z-index: 2;
+    font-size:0;
+  }
+  .btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    transition: background-color .5s;
+  }
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+    background-color: #EFD7DC;
+  }
+
+  .btn-mode.sun:hover{
+      background-color: #bb8a93;
+
+  }
+
+
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #6066AA;
+  }
+
+
+  .id-logo{
+    display:block;
+    margin:auto;
+    margin-top: 5px;
+  }
+
 
 
 
