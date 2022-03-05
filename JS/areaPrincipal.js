@@ -87,6 +87,7 @@ d3.csv("./data/areaPrincipal.csv").then(data => {
   g.append("g")
     .attr("class", "y axis")
     .call(yAxisCall)
+    .attr("color","#52525A")
 
   const rects = g.selectAll("rect")
     .data(data)
@@ -110,9 +111,6 @@ d3.csv("./data/areaPrincipal.csv").then(data => {
 
   
 
-  d3.interval(() => {
-    console.log("Hello World")
-  }, 1000)
 
   
 })
