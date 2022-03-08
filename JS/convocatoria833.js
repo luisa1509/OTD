@@ -4,41 +4,41 @@
 *    5.2 - Looping with intervals
 */
 
-const MARGIN2 = { LEFT: 100, RIGHT: 10, TOP: 10, BOTTOM: 100 }
-const WIDTH2 = 600 - MARGIN2.LEFT - MARGIN2.RIGHT
-const HEIGHT2 = 400 - MARGIN2.TOP - MARGIN2.BOTTOM
+const MARGIN4 = { LEFT: 100, RIGHT: 10, TOP: 10, BOTTOM: 100 }
+const WIDTH4 = 600 - MARGIN4.LEFT - MARGIN4.RIGHT
+const HEIGHT4 = 400 - MARGIN4.TOP - MARGIN4.BOTTOM
 
-const svg2 = d3.select("#chart-area4").append("svg")
-  .attr("width", WIDTH2 + MARGIN2.LEFT + MARGIN2.RIGHT)
-  .attr("height", HEIGHT2 + MARGIN2.TOP + MARGIN2.BOTTOM)
+const svg4 = d3.select("#chart-area4").append("svg")
+  .attr("width", WIDTH4 + MARGIN4.LEFT + MARGIN4.RIGHT)
+  .attr("height", HEIGHT4 + MARGIN4.TOP + MARGIN4.BOTTOM)
 
-const g2 = svg2.append("g")
-  .attr("transform", `translate(${MARGIN2.LEFT}, ${MARGIN2.TOP})`)
+const g4 = svg4.append("g")
+  .attr("transform", `translate(${MARGIN4.LEFT}, ${MARGIN4.TOP})`)
 
     // Tooltip
-const tip2 = d3.tip()
+const tip4 = d3.tip()
 .attr('class', 'd3-tip')
 .html(d => {
   let text = `<strong>Categoría:</strong> <span style='color:#CC3454;text-transform:capitalize'>${d.categoria}</span><br>`
   text += `<strong>Cantidad:</strong> <span style='color:#CC3454;text-transform:capitalize'>${d.cantidad}</span><br>`
   return text
 })
-g2.call(tip2)
+g4.call(tip4)
 
 // X label
-g2.append("text")
+g4.append("text")
   .attr("class", "x axis-label")
-  .attr("x", WIDTH2 / 2)
-  .attr("y", HEIGHT2 + 60)
+  .attr("x", WIDTH4 / 2)
+  .attr("y", HEIGHT4 + 60)
   .attr("font-size", "20px")
   .attr("text-anchor", "middle")
   .text("Categoría")
   .attr("fill","#2A2A2F")
 
 // Y label
-g2.append("text")
+g4.append("text")
   .attr("class", "y axis-label")
-  .attr("x", - (HEIGHT2 / 2))
+  .attr("x", - (HEIGHT4 / 2))
   .attr("y", -60)
   .attr("font-size", "20px")
   .attr("text-anchor", "middle")
@@ -55,19 +55,19 @@ d3.csv("data/convocatoria833.csv").then(data => {
 
   const x = d3.scaleBand()
     .domain(data.map(d => d.categoria))
-    .range([0, WIDTH2])
+    .range([0, WIDTH4])
     .paddingInner(0.3)
     .paddingOuter(0.2)
   
   const y = d3.scaleLinear()
     .domain([0, d3.max(data, d => d.cantidad)])
-    .range([HEIGHT2, 0])
+    .range([HEIGHT4, 0])
 
   const xAxisCall = d3.axisBottom(x)
     .ticks(6)
-  g2.append("g")
+  g4.append("g")
     .attr("class", "x axis")
-    .attr("transform", `translate(0, ${HEIGHT2})`)
+    .attr("transform", `translate(0, ${HEIGHT4})`)
     .call(xAxisCall)
     .attr("color","#52525A")
     
@@ -81,7 +81,7 @@ d3.csv("data/convocatoria833.csv").then(data => {
   const yAxisCall = d3.axisLeft(y)
     .ticks(5)
     .tickFormat(d => d + "")
-  g2.append("g")
+  g4.append("g")
     .attr("class", "y axis")
     .call(yAxisCall)
     .attr("color","#52525A")
@@ -89,19 +89,19 @@ d3.csv("data/convocatoria833.csv").then(data => {
 
     
 
-  const rects = g2.selectAll("rect")
+  const rects = g4.selectAll("rect")
     .data(data)
   
   rects.enter().append("rect")
     .attr("y", d => y(d.cantidad))
     .attr("x", (d) => x(d.categoria))
     .attr("width", x.bandwidth)
-    .attr("height", d => HEIGHT2 - y(d.cantidad))
+    .attr("height", d => HEIGHT4 - y(d.cantidad))
     .attr("fill", d => d.color)
     .attr("rx","5px")
     .attr("createPattern","img/arrow.png")
-    .on("mouseover", tip2.show)
-		.on("mouseout", tip2.hide)
+    .on("mouseover", tip4.show)
+		.on("mouseout", tip4.hide)
 		.merge(rects)
 
 
