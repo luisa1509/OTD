@@ -5,7 +5,7 @@
 */
 
 const MARGIN3 = { LEFT: 100, RIGHT: 10, TOP: 10, BOTTOM: 100 }
-const WIDTH3 = 600 - MARGIN3.LEFT - MARGIN3.RIGHT
+const WIDTH3 = 1000 - MARGIN3.LEFT - MARGIN3.RIGHT
 const HEIGHT3 = 400 - MARGIN3.TOP - MARGIN3.BOTTOM
 
 const svg3 = d3.select("#chart-area3").append("svg")
