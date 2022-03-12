@@ -25,11 +25,11 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-right: 1px solid transparent;
-    background-color: #EFD7DC;
+    background-color: #CC3454;
   }
 
   .btn-mode.sun:hover{
-      background-color: #bb8a93;
+      background-color: #eea7b6;
 
   }
 
@@ -42,7 +42,7 @@
   .btn-mode.moon{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color: #6066AA;
+    background-color: #2F3786;
   }
 
   .btn-mode.moon:hover{
