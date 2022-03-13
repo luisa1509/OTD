@@ -101,10 +101,32 @@ const institutions = [
     
 ];
 
-const institutions = document.querySelector('.content-institutions');
-const newInstitution = document.createElement('.institution');
-newInstitution.classList.add('.institution');
-newInstitution.innerHTML =  `
-<h3 class="institution_title">Institución</h3>`;
-institutions.appendChild(newInstitution);
+const institutionsList = document.querySelector('.content-institutions');
+
+function renderInstitutions (list) {
+    institutionsList.innerHTML = '';
+    list.forEach(function (elem) {
+        const newInstitution = document.createElement('div');
+        newInstitution.classList.add('institution');
+    
+      newInstitution.innerHTML = `
+      
+      
+        <h3 class="institution-title">${elem.title}</h3>
+      
+      <style>
+      .institution{
+          background-color: ${elem.color};
+      }
+
+
+      </style>
+      `;
+    
+      institutionsList.appendChild(newInstitution);
+    });
+  }
+
+
+  renderInstitutions(institutions);
 
