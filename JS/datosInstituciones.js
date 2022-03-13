@@ -114,13 +114,6 @@ function renderInstitutions (list) {
       
         <h3 class="institution-title">${elem.title}</h3>
       
-      <style>
-      .institution{
-          background-color: ${elem.color};
-      }
-
-
-      </style>
       `;
     
       institutionsList.appendChild(newInstitution);

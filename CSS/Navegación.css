@@ -263,6 +263,7 @@ input:checked + .slide:before {
     margin-top: 38px;
     font-family: Avenir LT Std;
     transition:background-color .5s;
+    
 
 }
 

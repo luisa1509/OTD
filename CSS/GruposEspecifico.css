@@ -1,4 +1,4 @@
-.content-institutions{
+.content-group{
     flex: auto;
     flex-wrap: wrap;
     display: flex;
@@ -8,7 +8,7 @@
 
 }
 
-.institution{
+.group{
     margin: 10px;
     width: 200px;
     height: 100px;
@@ -16,13 +16,13 @@
     flex-wrap: wrap;
     color: #3A3A42;
     align-content: flex-end;
-    background-color: white;
+    background-color: #FFE9CE;
     
     
     
 }
 
-.institution-title{
+.group-title{
     font-size: 14px;
     font-weight: 10px;
     margin: 10px;
