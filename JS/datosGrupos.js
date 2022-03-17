@@ -133,12 +133,19 @@ function renderGroup (list) {
       
       <div class="group-info">
         <h3 class="group-title">${elem.title}</h3>
-        <p class="group-area">${elem.area}</p>
+
+        
       </div>
 
-      <div>
-      <img class="group__img" src="./../Imgs/cantidad.png" alt="">
-      <p class="group-area">${elem.cantidad}</p>
+      <div class="group-cantidad">
+      <img class="group-img" src="./../Imgs/cantidad.png" alt="">
+      <p class="group-number">${elem.cantidad}</p>
+
+      </div>
+
+      <div class="group-subtitle">
+
+      <p class="group-area">${elem.area}</p>
 
       </div>
 

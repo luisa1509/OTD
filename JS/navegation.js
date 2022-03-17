@@ -7,29 +7,30 @@ const invest_creation =document.querySelector(".invest-creation");
 
 grupos.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = 'GruposInvestigacion.html'
+    window.location.href = 'GruposInvestigacion.html'
+    
 });
 
 
 convo.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = "./HTMLS/Convocatorias.html"
+    window.location.href = "./HTMLS/Convocatorias.html"
 });
 
 
 investi.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = "./HTMLS/Investigadores-Grupos.html"
+    window.location.href = "./HTMLS/Investigadores-Grupos.html"
 });
 
 projects.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = "./HTMLS/GruposInvestigación.html"
+    window.location.href = "./HTMLS/GruposInvestigación.html"
 });
 
 products.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = "./HTMLS/GruposInvestigación.html"
+    window.location.href = "./HTMLS/GruposInvestigación.html"
 });
 
 
