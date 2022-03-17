@@ -259,12 +259,33 @@ input:checked + .slide:before {
     color: #CC3454;
     animation: 2s, ease-in;
     border-color: transparent;
-    margin-left: 260px;;
+    margin-left: 260px;
     margin-top: 38px;
     font-family: Avenir LT Std;
     transition:background-color .5s;
     
 
+}
+.buttons:hover i {
+    background: darken(#92122e, 50%);
+  }
+
+  
+.buttonInst{
+    width: 181px;
+    height: 31px;
+    background: white;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #CC3454;
+    animation: 2s, ease-in;
+    border-color: transparent;
+    margin-left: 20px;
+    margin-top: 38px;
+    margin-right: 20px;
+    font-family: Avenir LT Std;
+    transition:background-color .5s;
+    
 }
 
 .buttons:hover {
@@ -437,7 +458,7 @@ No funciono jajan't*/
 }
 
 .dark-mode .graphicone{
-    background-color: #17171C;
+    background-color: #a9a9d3;
 
 }
 
@@ -453,6 +474,14 @@ No funciono jajan't*/
 .dark-mode .filters select:hover{
 	background: #9ca1d1;
     color: #3A3A42;
+}
+
+.dark-mode .titleone{
+    color:#6066AA;
+    
+    font-family: Avenir LT Std;
+    
+    
 }
 
 /*imagenes

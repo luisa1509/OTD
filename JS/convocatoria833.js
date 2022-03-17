@@ -8,7 +8,7 @@ const MARGIN4 = { LEFT: 100, RIGHT: 10, TOP: 10, BOTTOM: 100 }
 const WIDTH4 = 1000 - MARGIN4.LEFT - MARGIN4.RIGHT
 const HEIGHT4 = 400 - MARGIN4.TOP - MARGIN4.BOTTOM
 
-const svg4 = d3.select("#chart-area4").append("svg")
+const svg4 = d3.select("#chart-area").append("svg")
   .attr("width", WIDTH4 + MARGIN4.LEFT + MARGIN4.RIGHT)
   .attr("height", HEIGHT4 + MARGIN4.TOP + MARGIN4.BOTTOM)
 
@@ -46,7 +46,7 @@ g4.append("text")
   .text("Cantidad")
   .attr("fill","#2A2A2F")
 
-d3.csv("data/convocatoria833.csv").then(data => {
+d3.csv("../data/convocatoria833.csv").then(data => {
   data.forEach(d => {
     d.cantidad = Number(d.cantidad);
     d.color = d.color;
