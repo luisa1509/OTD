@@ -2,29 +2,29 @@ let nav = document.querySelector(".nav_principal");
 let body = document.querySelector("body");
 
 function cambiarLogoDark(){
-  document.getElementById("logo").src="./Imgs/logodark.png";
+  document.getElementById("logo").src=".././Imgs/logodark.png";
 }
 
 function cambiarLogoLight(){
-  document.getElementById("logo").src="./Imgs/logolight.png";
+  document.getElementById("logo").src=".././Imgs/logolight.png";
 }
 
 function cambiarIconosDark(){
-  document.getElementById("grupos").src="./Imgs/grupoblack.png";
-  document.getElementById("convocatorias").src="./Imgs/convocatoriaswhite.png";
-  document.getElementById("investigadores").src="./Imgs/investigadoreswhite.png";
-  document.getElementById("proyectos").src="./Imgs/proyectosdeinvestigacionwhite.png";
-  document.getElementById("productos").src="./Imgs/productoswhite.png";
-  document.getElementById("creacion").src="./Imgs/creacionwhite.png";
+  document.getElementById("grupos").src=".././Imgs/grupoblack.png";
+  document.getElementById("convocatorias").src=".././Imgs/convocatoriaswhite.png";
+  document.getElementById("investigadores").src=".././Imgs/investigadoreswhite.png";
+  document.getElementById("proyectos").src=".././Imgs/proyectosdeinvestigacionwhite.png";
+  document.getElementById("productos").src=".././Imgs/productoswhite.png";
+  document.getElementById("creacion").src=".././Imgs/creacionwhite.png";
 }
 
 function cambiarIconosLight(){
-  document.getElementById("grupos").src="./Imgs/grupowhite.png";
-  document.getElementById("convocatorias").src="./Imgs/convocatoriasblack.png";
-  document.getElementById("investigadores").src="./Imgs/investigadoresblack.png";
-  document.getElementById("proyectos").src="./Imgs/proyectosdeinvestigacionblack.png";
-  document.getElementById("productos").src="./Imgs/productosblack.png";
-  document.getElementById("creacion").src="./Imgs/creacionblack.png";
+  document.getElementById("grupos").src=".././Imgs/grupowhite.png";
+  document.getElementById("convocatorias").src=".././Imgs/convocatoriasblack.png";
+  document.getElementById("investigadores").src=".././Imgs/investigadoresblack.png";
+  document.getElementById("proyectos").src=".././Imgs/proyectosdeinvestigacionblack.png";
+  document.getElementById("productos").src=".././Imgs/productosblack.png";
+  document.getElementById("creacion").src=".././Imgs/creacionblack.png";
   
 }
 

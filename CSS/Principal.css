@@ -162,9 +162,12 @@ body{
 }
 
 .sectionbuttons{
+  width: 700px;
     align-items: center;
     margin: auto;
     margin-bottom: 40px;
+    align-content: space-between;
+    flex-wrap: wrap;
 
 }
 

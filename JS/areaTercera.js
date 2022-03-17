@@ -47,7 +47,7 @@ g3.append("text")
   .attr("fill","#2A2A2F")
   .text("Cantidad de Grupos")
 
-d3.csv("data/areaTercera.csv").then(data => {
+d3.csv(".././data/areaTercera.csv").then(data => {
   data.forEach(d => {
     d.cantidad = Number(d.cantidad)
     d.color = d.color;

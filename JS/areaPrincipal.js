@@ -49,7 +49,7 @@ g.append("text")
   .text("Cantidad de Grupos")
   
 
-d3.csv("./data/areaPrincipal.csv").then(data => {
+d3.csv(".././data/areaPrincipal.csv").then(data => {
   data.forEach(d => {
     d.cantidad = Number(d.cantidad)
     d.color = d.color;
