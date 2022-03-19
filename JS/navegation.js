@@ -3,37 +3,37 @@ const convo =document.querySelector(".convo");
 const investi =document.querySelector(".investi");
 const projects =document.querySelector(".projects");
 const products =document.querySelector(".products");
-const invest_creation =document.querySelector(".invest-creation");
+const invest_creation =document.querySelector(".invest_creation");
 
 grupos.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = 'GruposInvestigacion.html'
+    window.location.href = 'GruposInvestigacion.html'
 });
 
 
 convo.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = "./HTMLS/Convocatorias.html"
+    window.location.href = "Convocatorias.html"
 });
 
 
 investi.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = "./HTMLS/Investigadores-Grupos.html"
+    window.location.href = "Investigadores-Grupos.html"
 });
 
 projects.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = "./HTMLS/GruposInvestigación.html"
+    window.location.href = "Proyectos.html"
 });
 
 products.addEventListener("click", function(){
     console.log("hola")
-    Window.location.href = "./HTMLS/GruposInvestigación.html"
+    window.location.href = "Productos.html"
 });
 
 
 invest_creation.addEventListener("click", function(){
     console.log("hola")
-    document.location.href = "./HTMLS/Convocatorias.html"
+    window.location.href = "InvestigacionCreacion.html"
 });
