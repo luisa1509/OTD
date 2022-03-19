@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
 .container-btn-mode{
 
     position: relative;
@@ -64,7 +66,7 @@
 body{
     margin: 0;
     background-color: white;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     overflow-x: hidden;
     transition:background-color .5s;
 }
@@ -139,7 +141,7 @@ body{
     margin: auto;
     width: 50%;
     font-size: 14px;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
 }
 
 .texttwo{
@@ -148,7 +150,7 @@ body{
     font-size: 14px;
     margin: auto;
     width: 80%;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
 
 }
 
@@ -184,7 +186,7 @@ body{
     animation: 2s, ease-in;
     border-color: transparent;
     margin-top: 38px;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     transition:background-color .5s;
 
 }

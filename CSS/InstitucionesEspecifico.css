@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
 .content-institutions{
     flex: auto;
     flex-wrap: wrap;
@@ -42,7 +43,7 @@
     animation: 2s, ease-in;
     margin-left: 20px;;
     margin-top: 10px;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     transition:background-color .5s;
 
 }

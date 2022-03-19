@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
 .container-btn-mode{
 
     position: relative;
@@ -64,7 +66,7 @@
 body{
     margin: 0;
     background-color: white;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     overflow-x: hidden;
     transition:background-color .5s;
 }
@@ -261,7 +263,7 @@ input:checked + .slide:before {
     border-color: transparent;
     margin-left: 260px;
     margin-top: 38px;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     transition:background-color .5s;
     
 
@@ -283,7 +285,7 @@ input:checked + .slide:before {
     margin-left: 20px;
     margin-top: 38px;
     margin-right: 20px;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     transition:background-color .5s;
     
 }
@@ -314,7 +316,7 @@ input:checked + .slide:before {
 .titleone{
     color:#CC3454;
     margin-left: 50px;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     justify-content: center;
     
 }
@@ -340,7 +342,7 @@ input:checked + .slide:before {
 	cursor: pointer;
   	padding: 7px 10px;
     border-radius: 10px;
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     transition:background-color .5s;
 }
 
@@ -489,7 +491,7 @@ No funciono jajan't*/
 .dark-mode .titleone{
     color:#6066AA;
     
-    font-family: Avenir LT Std;
+    font-family: 'Hind', sans-serif;
     
     
 }
