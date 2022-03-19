@@ -11,7 +11,7 @@
 .group{
     margin: 10px;
     width: 200px;
-    height: 100px;
+    
     border-radius: 20px;
     flex-wrap: wrap;
     color: #3A3A42;
@@ -23,13 +23,38 @@
 }
 
 .group-title{
+    margin: 10px;
+    margin-top: 20px;
     font-size: 14px;
     font-weight: 10px;
-    margin: 10px;
+
     align-items: flex-end;
     
     
 }
+
+.group-cantidad{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    flex-direction: row;
+
+}
+
+.group-number{
+    margin: 0;
+}
+
+.group-subtitle{
+    margin: 10px;
+}
+
+.group-area{
+    margin: 0;
+}
+
 
 .select{
     width: 181px;

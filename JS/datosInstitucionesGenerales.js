@@ -21,14 +21,20 @@ const getDataAsJsonFrom = async (url) => {
 }
 
 updateValues();
-renderInstitutions(grupsTeam);
+setTimeout(
+    ()=>{
+        renderInstitutions(nameInstList)
+    }
+, 10000);
+//const myTimeout = setTimeout(myGreeting, 5000);
+
 
 async function updateValues() {
     /**
-     * Request data from pages
-     */
+    * Request data from pages
+    */
     const grups = "https://docs.google.com/spreadsheets/d/e/2PACX-1vScBDb9gEYhv0Fprocreyq41kXXwT1V7RFAdQlAGl5WlChscQc5qmhFNSb6ZW_GZQ/pub?gid=232416215&single=true&output=csv";
-
+    
     let grupsArray = await getDataAsJsonFrom(grups);
     grupsArray.forEach((element, index) => {
         if(index!=0){
@@ -36,7 +42,7 @@ async function updateValues() {
         }
     });
     //console.log(grupsTeam);
-
+    
     for (let i=0; i<grupsTeam.length; i++){
         nameInstList.push(grupsTeam[i].institution);
     }
@@ -44,23 +50,18 @@ async function updateValues() {
 }
 
 function renderInstitutions (grupsTeam) {
-console.log(grupsTeam)
-grupsTeam.forEach( (elem) => {
-        institutionsList.innerHTML = '';
+    console.log("-----------------------")
+    console.log(grupsTeam.length)
+    grupsTeam.forEach( (elem) => {
         const newInstitution = document.createElement('div');
         newInstitution.classList.add('institution');
-    
-      newInstitution.innerHTML = `
-      
-      
-        <h3 class="institution-title">${elem.institution}</h3>
-      `;
-    console.log(elem.institution)
-      institutionsList.appendChild(newInstitution);
-
+        newInstitution.innerHTML = `<h3 class="institution-title">${elem}</h3>`;
+        console.log(elem)
+        institutionsList.appendChild(newInstitution);
+        console.log(institutionsList);
     });
 }
-    
+
 function buildGrupsArray(grupsItem) {
     return {
         code: grupsItem[0],

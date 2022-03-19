@@ -49,17 +49,68 @@ g.append("text")
   .text("Cantidad de Grupos")
   
 
-d3.csv(".././data/areaPrincipal.csv").then(data => {
-  data.forEach(d => {
-    d.cantidad = Number(d.cantidad)
-    d.color = d.color;
+
+
+  let grupsTeam = [];
+  let codeList = [];
+  let areaList = [];
+  let resultado =[];
+  d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vScBDb9gEYhv0Fprocreyq41kXXwT1V7RFAdQlAGl5WlChscQc5qmhFNSb6ZW_GZQ/pub?output=csv&gid=232416215").then(data => {
+  console.log(data);
+  data.forEach((element) => {
+  grupsTeam.push(buildGrupsArray(element));
+  });
+  
+  for (let i=0; i<grupsTeam.length; i++){
+  codeList.push(grupsTeam[i].code);
+  areaList.push(grupsTeam[i].area1);
+  
+
+  
+  grupsTeam.forEach(d => {
+  d.area1 = (d.area1)
   })
+  }
+  console.log(grupsTeam);
 
+  
+   resultado= areaList.reduce((prev, cur) => ((prev[cur] = prev[cur] + 1 || 1), prev), [])
+  console.log({resultado});
+  
+  console.log(resultado['Ciencias Sociales'])
+  console.log(resultado['Humanidades'])
+  console.log(resultado['Ingeniería y Tecnología'])
+  console.log(resultado['Otras Humanidades'])
 
+  function buildGrupsArray(data) {
+  return {
+  code: data["Código del grupo de investigación"],
+  name: data["Nombre del grupo de investigación"],
+  vinculation: data["Grupo vinculado a la RAD (SI/NO)"],
+  area1: data["Area de actuación principal del grupo"],
+  area2: data["Area de actuación del grupo (2)"],
+  area3: data["Area de actuación del grupo (3)"],
+  cvlac: data["CVLac del grupo"],
+  id: data["Identificador del grupo de investigación"],
+  leader: data["Líder del grupo"],
+  institution: data["IES a la que pertenece"],
+  sector: data["Sector de la IES"],
+  town: data["Ciudad en la que se ubica el grupo"],
+  creationYear: data["Año conformación"],
+  description: data["Descripción del grupo"],
+  lineOfResearch: data["Líneas de investigación declaradas por el grupo"],
+  lineOfResearch1: data["Líneas de investigación declaradas por el grupo (2)"],
+  lineOfResearch2: data["Líneas de investigación declaradas por el grupo (3)"],
+  lineOfResearch3: data["Líneas de investigación declaradas por el grupo (4)"],
+  lineOfResearch4: data["Líneas de investigación declaradas por el grupo (5)"],
+  lineOfResearch5: data["Líneas de investigación declaradas por el grupo (6)"],
+  lineOfResearch6: data["Líneas de investigación declaradas por el grupo (7)"],
+  }
+  }
   
 
   const x = d3.scaleBand()
-    .domain(data.map(d => d.area))
+    .domain(grupsTeam.map(d => d.area1))
     .range([0, WIDTH])
     .paddingInner(0.3)
     .paddingOuter(0.2)
@@ -94,7 +145,7 @@ d3.csv(".././data/areaPrincipal.csv").then(data => {
   
   rects.enter().append("rect")
     .attr("y", d => y(d.cantidad))
-    .attr("x", (d) => x(d.area))
+    .attr("x", (d) => x(d.area1))
     .attr("width", x.bandwidth)
     .attr("height", d => HEIGHT - y(d.cantidad))
     .attr("fill", d => d.color)
