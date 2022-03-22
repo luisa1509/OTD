@@ -4,6 +4,8 @@ const investi =document.querySelector(".investi");
 const projects =document.querySelector(".projects");
 const products =document.querySelector(".products");
 const invest_creation =document.querySelector(".invest_creation");
+const grupoEspecifico =document.querySelector(".grupoEspecifico");
+const insEspecifico =document.querySelector(".insEspecifico");
 
 grupos.addEventListener("click", function(){
     console.log("hola")
@@ -36,4 +38,14 @@ products.addEventListener("click", function(){
 invest_creation.addEventListener("click", function(){
     console.log("hola")
     window.location.href = "InvestigacionCreacion.html"
+});
+
+grupoEspecifico.addEventListener("click", function(){
+    console.log("hola")
+    window.location.href = "GruposEspecifico.html"
+});
+
+insEspecifico.addEventListener("click", function(){
+    console.log("hola")
+    window.location.href = "InstitucionesEspecifico.html"
 });
