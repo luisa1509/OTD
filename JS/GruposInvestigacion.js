@@ -3,10 +3,12 @@ let body = document.querySelector("body");
 
 function cambiarLogoDark(){
   document.getElementById("logo").src=".././Imgs/logodark.png";
+  document.getElementById("logoRAD").src=".././Imgs/logoRADdark.png";
 }
 
 function cambiarLogoLight(){
   document.getElementById("logo").src=".././Imgs/logolight.png";
+  document.getElementById("logoRAD").src=".././Imgs/logoRADlight.png";
 }
 
 function cambiarIconosDark(){
