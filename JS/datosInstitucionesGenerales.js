@@ -85,6 +85,7 @@ function buildGrupsArray(grupsItem) {
         lineOfResearch4: grupsItem[18],
         lineOfResearch5: grupsItem[19],
         lineOfResearch6: grupsItem[20],
+        numberOfInvest: grupsItem[21],
     }
 }
 
