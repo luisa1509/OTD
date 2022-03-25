@@ -12,7 +12,7 @@ function cambiarLogoLight(){
 }
 
 function cambiarIconosDark(){
-  document.getElementById("grupos").src=".././Imgs/grupoblack.png";
+  document.getElementById("grupos").src=".././Imgs/grupowhite.png";
   document.getElementById("convocatorias").src=".././Imgs/convocatoriaswhite.png";
   document.getElementById("investigadores").src=".././Imgs/investigadoreswhite.png";
   document.getElementById("proyectos").src=".././Imgs/proyectosdeinvestigacionwhite.png";
@@ -51,3 +51,4 @@ document.getElementById('id-moon').onclick = function(){
 
   console.log("darks");
 }
+
