@@ -63,42 +63,82 @@ logo.addEventListener("click", function(){
     window.location.href = ".././Principal.html"
 });
 
-imggrupo.addEventListener("mouseover", white, false);
-imggrupo.addEventListener("mouseout", black, false);
-imgconvo.addEventListener("mouseover", white, false);
-imgconvo.addEventListener("mouseout", black, false);
-imginvesti.addEventListener("mouseover", white, false);
-imginvesti.addEventListener("mouseout", black, false);
-imgprojects.addEventListener("mouseover", white, false);
-imgprojects.addEventListener("mouseout", black, false);
-imgproducts.addEventListener("mouseover", white, false);
-imgproducts.addEventListener("mouseout", black, false);
-imginvest_creation.addEventListener("mouseover", white, false);
-imginvest_creation.addEventListener("mouseout", black, false);
+gruposimg.addEventListener("mouseover", whitegrupo, false);
+gruposimg.addEventListener("mouseout", blackgrupo, false);
+convoimg.addEventListener("mouseover", whiteconvo, false);
+convoimg.addEventListener("mouseout", blackconvo, false);
+investiimg.addEventListener("mouseover", whiteinvesti, false);
+investiimg.addEventListener("mouseout", blackinvesti, false);
+projectsimg.addEventListener("mouseover", whiteprojects, false);
+projectsimg.addEventListener("mouseout", blackprojects, false);
+productsimg.addEventListener("mouseover", whiteproducts, false);
+productsimg.addEventListener("mouseout", blackproducts, false);
+invest_creationimg.addEventListener("mouseover", whiteinvest_creation, false);
+invest_creationimg.addEventListener("mouseout", blackinvest_creation, false);
 
 
-function white(){
+function whitegrupo(){
     imggrupo.setAttribute("src",".././Imgs/grupowhite.png")
-    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png")
-    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png")
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png")
-    imgproducts.setAttribute("src",".././Imgs/productoswhite.png")
-    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png")
- 
 }
 
-function black(){
+function blackgrupo(){
     imggrupo.setAttribute("src",".././Imgs/grupoblack.png")
+}
+
+function whiteconvo(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png")
+}
+
+function blackconvo(){
     imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png")
+}
+
+function whiteinvesti(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png")
+}
+
+function blackinvesti(){
     imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png")
+}
+
+function whiteprojects(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png")
+}
+
+function blackprojects(){
     imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png")
+}
+
+function whiteproducts(){
+    imgproducts.setAttribute("src",".././Imgs/productoswhite.png")
+}
+
+function blackproducts(){
     imgproducts.setAttribute("src",".././Imgs/productosblack.png")
+}
+
+function whiteinvest_creation(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png")
+}
+
+function blackinvest_creation(){
     imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png")
 }
 
 
 
 
+    
+    
+ 
+
+ 
+
+
+    
+   
+   
+ 
 
 
 
