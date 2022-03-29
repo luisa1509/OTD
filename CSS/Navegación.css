@@ -301,6 +301,26 @@ input:checked + .slide:before {
     
 }
 
+.buttonsadd{
+    width: 280px;
+    height: 31px;
+    background: white;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #CC3454;
+    animation: 2s, ease-in;
+    border-color: transparent;
+    margin-left: 20px;
+    margin-top: 38px;
+    margin-right: 20px;
+    font-family: 'Hind', sans-serif;
+    transition:background-color .5s;
+    
+
+}
+
+
+
 .buttons:hover {
     background-color: darken(#6066AA, 6%);
   }
