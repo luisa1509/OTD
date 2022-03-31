@@ -158,12 +158,12 @@ function blackinvest_creation(){
 
 grupoEspecifico.addEventListener("click", function(){
     console.log("hola")
-    window.location.href = "GruposEspecifico.html"
+    window.location.href = "Grupos.html"
 });
 
 insEspecifico.addEventListener("click", function(){
     console.log("hola")
-    window.location.href = "InstitucionesEspecifico.html"
+    window.location.href = "Instituciones.html"
 });
 
 
