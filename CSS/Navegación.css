@@ -530,14 +530,18 @@ No funciono jajan't*/
     
 }
 
-/*imagenes
-
-.dark-mode .logo{
-    background: url("/Imgs/logodark.png");
-    box-sizing: border-box;
-    background-size: cover;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 30px;
+.dark-mode .buttonInst{
+    background-color: #6066AA;
+    border-color: transparent;
+    color: white;
+    transition:background-color .5s;
+    
 }
-*/
+
+.dark-mode .buttonsadd{
+    background-color: #6066AA;
+    border-color: transparent;
+    color: white;
+    transition:background-color .5s;
+
+}

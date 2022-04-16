@@ -17,7 +17,7 @@
     flex-wrap: wrap;
     color: #3A3A42;
     align-content: flex-end;
-    background-color: white;
+    background-color: #FFE9CE;
     
     
     
@@ -47,3 +47,23 @@
     transition:background-color .5s;
 
 }
+
+
+/*DARK MODE*/
+
+
+.dark-mode {
+    background-color: #17171C;
+    transition: background-color .5s;
+  }
+  
+  
+  
+  .dark-mode .institution {
+  
+    background-color: #CCCFF1;
+ 
+    transition: background-color .5s;
+
+  }
+  
