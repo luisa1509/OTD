@@ -1,5 +1,13 @@
 
 let body = document.querySelector("body");
+const btnprincipal = document.querySelector(".namePlata");
+
+
+btnprincipal.addEventListener("click", function(){
+  console.log("hola")
+  window.location.href = './HTMLS/GruposInvestigacion.html'
+});
+
 
 function cambiarImgDark(){
   document.getElementById("line1").src="./Imgs/LineWhite.png";
