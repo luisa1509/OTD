@@ -14,7 +14,7 @@ Group.innerHTML = `
 <h1 class="name__group">${elem.name}</h1>
 <a href="${elem.cvlac}">${elem.cvlac}</a>
 <div class ="numbers">
-<img class ="numberImage" src=".././Imgs/número-investwhite.png">
+<img class ="numberImage" src=".././Imgs/número-investWhite.png">
 <p class="number__invest">${elem.numberOfInvest}</p>
 </div>
 
