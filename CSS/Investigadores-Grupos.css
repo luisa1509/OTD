@@ -92,3 +92,76 @@ padding: 0;
 margin:0;
 }
 
+@media screen and (max-width: 900px) {
+   
+    .group{
+    margin-left: 40px;
+    }
+    
+    .name__group{
+    font-size: 32px;
+    }
+    
+    
+    .number__invest{
+    font-size: 20px;
+
+    }
+    .numberImage{
+    width: 20px;
+    height: 20px;
+
+    }
+    
+    .areas{
+    font-size: 14px;
+    }
+    
+    .leader{
+    font-size: 12px;
+    }
+    
+    a{
+    font-size: 12px;
+
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+.group{
+margin-left: 40px;
+}
+
+.name__group{
+font-size: 25px;
+margin-bottom: 0px;
+
+}
+
+
+.number__invest{
+font-size: 15px;
+
+}
+.numberImage{
+width: 20px;
+height: 20px;
+
+}
+
+.areas{
+font-size: 10px;
+}
+
+.leader{
+font-size: 10px;
+}
+
+a{
+font-size: 6px;
+
+}
+
+}

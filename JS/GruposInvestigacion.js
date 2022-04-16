@@ -1,6 +1,13 @@
 let nav = document.querySelector(".nav_principal");
 let body = document.querySelector("body");
 
+let graphicsGrups =document.querySelector(".graphicsGrups");
+let graphicsConvo =document.querySelector(".graphicsConvo");
+let graphicsInvest =document.querySelector(".graphicsInvest");
+let graphicsProyects =document.querySelector(".graphicsProyects");
+let graphicsProducts =document.querySelector(".graphicsProducts");
+let graphicsCreation =document.querySelector(".graphicsCreation");
+
 function cambiarLogoDark(){
   document.getElementById("logo").src=".././Imgs/logodark.png";
   document.getElementById("logoRAD").src=".././Imgs/logoRADdark.png";
@@ -51,4 +58,6 @@ document.getElementById('id-moon').onclick = function(){
 
   console.log("darks");
 }
+
+
 

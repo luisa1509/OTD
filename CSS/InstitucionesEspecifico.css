@@ -66,4 +66,43 @@
     transition: background-color .5s;
 
   }
+
+  @media screen and (max-width: 900px) {
+    .institution{
+        width: 200px;
+        height: 100px;
+        border-radius: 1¿20px;
+        
+        
+        
+    }
+    
+    .institution-title{
+        font-size: 12px;
+
+        
+        
+    }
+    
+
+}
+  @media screen and (max-width: 600px) {
+    .institution{
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        
+        
+        
+    }
+    
+    .institution-title{
+        font-size: 10px;
+
+        
+        
+    }
+    
+
+}
   

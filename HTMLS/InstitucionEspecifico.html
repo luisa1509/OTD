@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href=".././Imgs/grupoblack.png" type="image/png" />
-    <link rel="stylesheet" href="../CSS/Navegación.css">
-    <link rel="stylesheet" href="../CSS/Institucion.css">
+    <link rel="stylesheet" href=".././CSS/Navegación.css">
+    <link rel="stylesheet" href=".././CSS/Institucion.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instituciones</title>
 </head>
@@ -36,11 +36,11 @@
     <div class="body">
         <div class="nav__left">
 
-         <img class= "logo" src="./../Imgs/logolight.png" alt="Logo OTD Investigación">
+         <img class= "logo" id="logo" src=".././Imgs/logolight.png" alt="Logo OTD Investigación">
         <div>
 
             <div class="sections here grupos">
-                <img class="imgs imggrupo" src="./../Imgs/grupowhite.png" alt="Icono de instituciones">
+                <img class="imgs imggrupo" id="grupos" src="./../Imgs/grupowhite.png" alt="Icono de instituciones">
                   <h3 class="sections__here">Grupos de investigación</h3>
          </div>
 
@@ -73,17 +73,7 @@
 
         <div class="content__i">
 
-            <div class="content__ins">
-                <div class="group__ins">
-                    <h1 class="name__ins">Servicio Nacional De Aprendizaje Sena </h1>
-                    <p class="where"> <strong> Lugar:</strong> Antioquia - Itagüí</p>
-                </div>
 
-                <div class="group__as">
-                    <p class="group__name">Grupo de investigación <br> asociado</p>
-                    <h1 class="name__groupInst">INAMOD </h1>
-                    <p class="year"> <strong>Año de conformación del <br> grupo:</strong> 2012-01</p>
-                </div>
 
             </div>
 
@@ -94,7 +84,11 @@
 
     </div>
 
-<script src="../JS/navegation.js"></script>
+    <script src="./../JS/papaparse.min.js"></script>
+    <script src="../JS/datosInstitucionesGenerales.js"></script>
+    <script src="../JS/DatosInstitucionesEspecificos.js"></script>
+    <script src="../JS/GruposInvestigacion.js"></script>
+    <script src="../JS/navegation.js"></script>
 </body>
 
 </html>

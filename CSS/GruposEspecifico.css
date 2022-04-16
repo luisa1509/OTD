@@ -90,4 +90,71 @@
     transition: background-color .5s;
 
   }
+
+
+  @media screen and (max-width: 900px) {
+    .group{
+        width: 200px;
+        
+        
+    }
+    
+    .group-title{
+        font-size: 12px;
+        
+        
+    }
+    
+    .group-cantidad{
+        font-size: 12px;
+    
+    }
+    
+    .group-number{
+        font-size: 12px;
+    }
+    
+    .group-subtitle{
+        font-size: 12px;
+    }
+    
+    .group-area{
+        font-size: 12px;
+    }
+    
+
+}
+
+@media screen and (max-width: 600px) {
+    .group{
+        width: 200px;
+        
+        
+    }
+    
+    .group-title{
+        font-size: 10px;
+        
+        
+    }
+    
+    .group-cantidad{
+        font-size: 10px;
+    
+    }
+    
+    .group-number{
+        font-size: 10px;
+    }
+    
+    .group-subtitle{
+        font-size: 10px;
+    }
+    
+    .group-area{
+        font-size: 10px;
+    }
+    
+
+}
   

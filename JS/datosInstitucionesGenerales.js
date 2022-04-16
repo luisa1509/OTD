@@ -1,5 +1,5 @@
 let grupsTeam = [];
-let nameInstList = [];
+let datos =[];
 
 
 const institutionsList = document.querySelector('.content-institutions');
@@ -23,9 +23,9 @@ const getDataAsJsonFrom = async (url) => {
 updateValues();
 setTimeout(
     ()=>{
-        renderInstitutions(nameInstList)
+        renderInstitutions(grupsTeam)
     }
-, 10000);
+, 3000);
 //const myTimeout = setTimeout(myGreeting, 5000);
 
 
@@ -42,52 +42,61 @@ async function updateValues() {
         }
     });
     //console.log(grupsTeam);
-    
-    for (let i=0; i<grupsTeam.length; i++){
-        nameInstList.push(grupsTeam[i].institution);
-    }
-    console.log(nameInstList);
+
 }
 
 function renderInstitutions (grupsTeam) {
     console.log("-----------------------")
     console.log(grupsTeam.length)
     grupsTeam.forEach( (elem) => {
+        datos = elem;
+        console.log(datos)
         const newInstitution = document.createElement('div');
         newInstitution.classList.add('institution');
-        newInstitution.innerHTML = `<h3 class="institution-title">${elem}</h3>`;
+        newInstitution.innerHTML = `<h3 class="institution-title">${elem.institution}</h3>`;
         console.log(elem)
         institutionsList.appendChild(newInstitution);
         console.log(institutionsList);
+
+
+        newInstitution.addEventListener("click", function(){
+
+            console.log("hola");
+            console.log(elem.name)
+            datos = elem;
+            console.log(datos);
+            window.location.href = 'InstitucionEspecifico.html';
+            })
+
     });
 }
 
 function buildGrupsArray(grupsItem) {
     return {
-        code: grupsItem[0],
-        name: grupsItem[1],
-        vinculation: grupsItem[2],
-        area1: grupsItem[3],
-        area2: grupsItem[4],
-        area3: grupsItem[5],
-        cvlac: grupsItem[6],
-        id: grupsItem[7],
-        leader: grupsItem[8],
-        institution: grupsItem[9],
-        sector: grupsItem[10],
-        town: grupsItem[11],
-        creationYear: grupsItem[12],
-        description: grupsItem[13],
-        lineOfResearch: grupsItem[14],
-        lineOfResearch1: grupsItem[15],
-        lineOfResearch2: grupsItem[16],
-        lineOfResearch3: grupsItem[17],
-        lineOfResearch4: grupsItem[18],
-        lineOfResearch5: grupsItem[19],
-        lineOfResearch6: grupsItem[20],
-        numberOfInvest: grupsItem[21],
+    code: grupsItem[0],
+    name: grupsItem[1],
+    vinculation: grupsItem[2],
+    area1: grupsItem[3],
+    area2: grupsItem[4],
+    area3: grupsItem[5],
+    cvlac: grupsItem[6],
+    id: grupsItem[7],
+    leader: grupsItem[8],
+    institution: grupsItem[9],
+    latitud:grupsItem[10],
+    longitud: grupsItem[11],
+    direction: grupsItem[12],
+    sector: grupsItem[13],
+    town:grupsItem[14],
+    creationYear: grupsItem[15],
+    description: grupsItem[16],
+    lineOfResearch: grupsItem[17],
+    lineOfResearch1: grupsItem[18],
+    lineOfResearch2: grupsItem[19],
+    lineOfResearch3: grupsItem[20],
+    lineOfResearch4: grupsItem[21],
+    lineOfResearch5: grupsItem[22],
+    lineOfResearch6: grupsItem[23],
+    numberOfInvest: grupsItem[24],
     }
-}
-
-
-
+    }

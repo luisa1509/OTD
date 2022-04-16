@@ -608,3 +608,121 @@ body {
   transition: background-color .5s;
 
 }
+
+@media screen and (max-width: 900px) {
+  .observatory {
+    width: 80%;
+  }
+
+  .namepage {
+    font-size: 22px;
+
+  }
+  
+  .namepage1 {
+    font-size: 22px;
+  }
+
+  .text1 {
+    font-size: 10px;
+
+  }
+  
+  .text2 {
+
+    font-size: 8px;
+
+  }
+
+  
+.namepage2 {
+  font-size: 22px;
+ 
+}
+
+.purpose {
+  font-size: 12px;
+}
+
+
+.purposes1 {
+  font-size: 10px;
+ 
+}
+
+.purposes2 {
+  font-size: 10px;
+}
+
+.purposes3 {
+  font-size: 10px;
+}
+
+.purposes4 {
+  font-size: 10px;
+}
+
+#line1{
+  width: 500px;
+}
+
+#line2{
+  width: 500px;
+}
+
+.namepage3 {
+  font-size: 22px;
+
+}
+
+.namepage5 {
+  font-size: 15px;
+
+}
+.sections {
+
+  width: 80px;
+
+}
+
+.imgSections{
+  width: 50px;
+}
+
+.imgSections1{
+  width: 35px;
+}
+
+.imgSections2{
+  width: 32px;
+}
+
+h5{
+  font-size: 12px;
+}
+
+
+.plataformName {
+  width: 150px;
+
+}
+.namePlata {
+  margin-top: 10px;
+  font-size: 12px;
+
+}
+
+.plataformImage {
+
+  width: 150px;
+}
+
+.imagePlata {
+  height: 30px;
+}
+
+#logoRAD{
+  width: 150px;
+}
+
+}
