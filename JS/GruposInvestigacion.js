@@ -60,6 +60,7 @@ document.getElementById('id-moon').onclick = function(){
   cambiarLogoDark();
   cambiarIconosDark();
   body.classList.add('dark-mode')
+
   graphicsGrups.src="https://app.powerbi.com/view?r=eyJrIjoiYTI4MWQ4ZDQtMjZjZS00MTZmLTk5YjAtZGY1MTk0YTUzNzNmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   graphicsConvo.src="https://app.powerbi.com/view?r=eyJrIjoiYTJhMWEwOGQtNDM5MC00MDc3LTg4ZDItZmEwMzM3YjdmNGFmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   graphicsInvest.src="https://app.powerbi.com/view?r=eyJrIjoiNmE2YjNiYzEtYjE3Yi00NjA2LTg1NmMtMGYyYTYzNGQyY2I3IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";

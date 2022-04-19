@@ -1,6 +1,6 @@
 
 let body = document.querySelector("body");
-const btnprincipal = document.querySelector(".namePlata");
+const btnprincipal = document.querySelector(".plataform");
 
 
 btnprincipal.addEventListener("click", function(){
