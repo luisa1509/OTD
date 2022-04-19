@@ -320,6 +320,9 @@ input:checked + .slide:before {
 }
 
 
+.graphicsGrups{
+    background-color: transparent;
+}
 
 .buttons:hover {
     background-color: darken(#6066AA, 6%);
