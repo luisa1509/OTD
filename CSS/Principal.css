@@ -609,6 +609,18 @@ body {
 
 }
 
+.imgSections:hover{
+  width: 100px;
+}
+
+.imgSections1:hover{
+  width: 80px;
+}
+
+.imgSections2:hover{
+  width: 80px;
+}
+
 @media screen and (max-width: 900px) {
   .observatory {
     width: 80%;
@@ -726,3 +738,4 @@ h5{
 }
 
 }
+
