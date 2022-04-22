@@ -1,6 +1,8 @@
 let grupsTeam = [];
-let datos =[]
+let datos;
 
+let loader=document.querySelector(".loader");
+let loaderGeneral =document.querySelector(".loaderGeneral");
 
 const groupList = document.querySelector('.content-group');
 const fetchDatabase = async (url) => {
@@ -18,11 +20,16 @@ const json = await Papa.parse(raw);
 return json.data;
 }
 updateValues();
+
+loader.classList.add('loader--show');
 setTimeout(
 ()=>{
 renderGroup(grupsTeam); console.log(datos);
+loader.classList.remove('loader--show');
+loaderGeneral.classList.add('loaderGeneral--hide');
 }
 , 3000);
+
 //const myTimeout = setTimeout(myGreeting, 5000);
 async function updateValues() {
 /**
@@ -36,6 +43,7 @@ grupsTeam.push(buildGrupsArray(element));
 }
 });
 }
+
 function renderGroup (grupsTeam) {
 grupsTeam.forEach( (elem) => {
 datos = elem;
@@ -43,29 +51,27 @@ console.log(datos)
 const newGroup = document.createElement('div');
 newGroup.classList.add('group');
 newGroup.innerHTML = `
-<div class="group-info">
-<h3 class="group-title">${elem.name}</h3>
-</div>
-<div class="group-cantidad">
-<img class="group-img" src="./../Imgs/cantidad.png" alt="">
-<p class="group-number">${elem.numberOfInvest}</p>
-</div>
-<div class="group-subtitle">
-<p class="group-area">${elem.area1}</p>
-</div>
+    <div class="group-info">
+    <h3 class="group-title">${elem.name}</h3>
+    </div>
+    <div class="group-cantidad">
+    <img class="group-img" src="./../Imgs/cantidad.png" alt="">
+    <p class="group-number">${elem.numberOfInvest}</p>
+    </div>
+    <div class="group-subtitle">
+    <p class="group-area">${elem.area1}</p>
+    </div>
 
-`;
-groupList.appendChild(newGroup);
+    `;
+    groupList.appendChild(newGroup);
 
-newGroup.addEventListener("click", function(){
-
-console.log("hola");
-console.log(elem.name)
-datos = elem;
-console.log(datos);
-window.location.href = 'GruposEspecifico.html';
-})
-});
+        newGroup.addEventListener("click", function(){
+        console.log(elem.name)
+        datos = elem;
+        console.log(datos);
+       window.location.href = 'GruposEspecifico.html?cod='+elem.code;
+        })
+    });
 }
 
 function buildGrupsArray(grupsItem) {

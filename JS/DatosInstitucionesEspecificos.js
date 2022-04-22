@@ -2,8 +2,13 @@ const groupList1 = document.querySelector('.content__i');
 
 setTimeout(
 ()=>{
-renderGroups(datos);
-console.log(datos)
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get("cod");
+    console.log(" .................... ", code);
+    console.log("grupos: ", grupsTeam);
+    let result = grupsTeam.filter((item)=>item.code == code);
+    console.log("resultado: ", result);
+    renderGroups(result[0]);
 }
 , 3000);
 

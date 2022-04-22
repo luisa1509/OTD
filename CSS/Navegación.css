@@ -549,6 +549,30 @@ No funciono jajan't*/
 
 }
 
+.loaderGeneral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    top: 30px;
+    z-index: 5;
+}
+
+.loaderGeneral--hide{
+    height: 0px;
+}
+.loader{
+    display: none;
+}
+
+.loader--show{
+    display: block;
+    margin-top: 200px;
+    z-index: 5;
+ 
+}
+
 @media screen and (max-width: 900px) {
     .nav__principal{
         width: 100%;

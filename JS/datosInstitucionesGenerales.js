@@ -65,7 +65,7 @@ function renderInstitutions (grupsTeam) {
             console.log(elem.name)
             datos = elem;
             console.log(datos);
-            window.location.href = 'InstitucionEspecifico.html';
+            window.location.href = 'InstitucionEspecifico.html?cod='+elem.code;
             })
 
     });
