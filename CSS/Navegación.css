@@ -561,6 +561,7 @@ No funciono jajan't*/
 
 .loaderGeneral--hide{
     height: 0px;
+    width: 0px;
 }
 .loader{
     display: none;

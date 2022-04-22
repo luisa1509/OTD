@@ -1,5 +1,8 @@
 const groupList1 = document.querySelector('.content__i');
+let loader2 =document.querySelector(".loader");
+let loaderGeneral2 =document.querySelector(".loaderGeneral");
 
+loader2.classList.add('loader--show');
 setTimeout(
 ()=>{
     const params = new URLSearchParams(window.location.search);
@@ -9,6 +12,9 @@ setTimeout(
     let result = grupsTeam.filter((item)=>item.code == code);
     console.log("resultado: ", result);
     renderGroups(result[0]);
+    
+loader2.classList.remove('loader--show');
+loaderGeneral2.classList.add('loaderGeneral--hide');
 }
 , 3000);
 

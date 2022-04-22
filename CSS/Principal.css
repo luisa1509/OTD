@@ -558,15 +558,16 @@ body {
   color: white;
 }
 
-.dark-mode .title{
+.dark-mode .title {
 
   color: white;
 }
 
-.dark-mode .purpose{
+.dark-mode .purpose {
 
   color: white;
 }
+
 .dark-mode .purposeList {
 
   color: white;
@@ -577,17 +578,17 @@ body {
   color: white;
 }
 
-.dark-mode .purposes1{
+.dark-mode .purposes1 {
 
   color: white;
 }
 
-.dark-mode .purposes2{
+.dark-mode .purposes2 {
 
   color: white;
 }
 
-.dark-mode .purposes3{
+.dark-mode .purposes3 {
 
   color: white;
 }
@@ -597,10 +598,10 @@ body {
   color: white;
 }
 
-.dark-mode .namepage .purpose .purposeList .purposeList1 .purposes1 .purposes2 .purposes3 .purposes4{
- 
+.dark-mode .namepage .purpose .purposeList .purposeList1 .purposes1 .purposes2 .purposes3 .purposes4 {
+
   color: white;
-  }
+}
 
 .dark-mode .plataformImage {
 
@@ -609,62 +610,127 @@ body {
 
 }
 
-.imgSections{
+.imgSections {
   width: 90px;
   margin-top: 20px;
 }
-.imgSections1{
+
+.imgSections1 {
   width: 90px;
   margin-left: 10px;
   margin-top: 20px;
 }
-.imgSections2{
+
+.imgSections2 {
   width: 80px;
   margin-top: 20px;
 }
-.imgSections3{
+
+.imgSections3 {
   width: 60px;
   margin-top: 20px;
 }
-.imgSections4{
+
+.imgSections4 {
   width: 80px;
   margin-top: 20px;
 }
-.imgSections5{
+
+.imgSections5 {
   width: 80px;
   margin-left: 10px;
   margin-top: 20px;
 }
 
-.imgSections:hover{
+.imgSections:hover {
   width: 100px;
 }
 
-.imgSections1:hover{
+.imgSections1:hover {
   width: 100px;
 }
 
-.imgSections2:hover{
+.imgSections2:hover {
   width: 90px;
 }
 
-.imgSections3:hover{
+.imgSections3:hover {
   width: 70px;
 }
 
-.imgSections4:hover{
+.imgSections4:hover {
   width: 90px;
 }
 
-.imgSections5:hover{
+.imgSections5:hover {
   width: 90px;
 }
 
-.plataformName:hover{
+.plataformName:hover {
   background-color: #ce8200;
 }
 
 @media screen and (max-width: 900px) {
+  .sectionsgroup {
+    width: 100%;
+
+  }
+
+  .imgSections {
+    width: 40px;
+  }
+
+  .imgSections1 {
+    width: 35px;
+  }
+
+  .imgSections2 {
+    width: 32px;
+  }
+  
+  .imgSections3 {
+    width: 25px;
+
+ 
+  }
+  
+  .imgSections4 {
+    width: 40px;
+    
+
+  }
+  
+  .imgSections5 {
+    width: 30px;
+    margin-left: 10px;
+    
+
+  }
+  
+  .imgSections:hover {
+    width: 70px;
+  }
+  
+  .imgSections1:hover {
+    width: 50px;
+  }
+  
+  .imgSections2:hover {
+    width: 50px;
+  }
+  
+  .imgSections3:hover {
+    width: 40px;
+  }
+  
+  .imgSections4:hover {
+    width: 50px;
+  }
+  
+  .imgSections5:hover {
+    width: 40px;
+  }
+
   .observatory {
     width: 80%;
   }
@@ -673,7 +739,7 @@ body {
     font-size: 22px;
 
   }
-  
+
   .namepage1 {
     font-size: 22px;
   }
@@ -682,103 +748,95 @@ body {
     font-size: 10px;
 
   }
-  
+
   .text2 {
 
     font-size: 8px;
 
   }
 
-  
-.namepage2 {
-  font-size: 22px;
+
+  .namepage2 {
+    font-size: 22px;
+
+  }
+
+  .purpose {
+    font-size: 12px;
+  }
+
+
+  .purposes1 {
+    font-size: 10px;
+
+  }
+
+  .purposes2 {
+    font-size: 10px;
+  }
+
+  .purposes3 {
+    font-size: 10px;
+  }
+
+  .purposes4 {
+    font-size: 10px;
+  }
+
+  #line1 {
+    width: 500px;
+  }
+
+  #line2 {
+    width: 500px;
+  }
+
+  .namepage3 {
+    font-size: 22px;
+
+  }
+
+  .namepage5 {
+    font-size: 15px;
+
+  }
+
+  .sections {
+
+    width: 80px;
+    border-radius: 10px;
+
+  }
+
  
-}
 
-.purpose {
-  font-size: 12px;
-}
+  h5 {
+    font-size: 12px;
+  }
 
 
-.purposes1 {
-  font-size: 10px;
- 
-}
+  .plataformName {
+    width: 150px;
 
-.purposes2 {
-  font-size: 10px;
-}
+  }
 
-.purposes3 {
-  font-size: 10px;
-}
+  .namePlata {
+    margin-top: 10px;
+    font-size: 12px;
 
-.purposes4 {
-  font-size: 10px;
-}
+  }
 
-#line1{
-  width: 500px;
-}
+  .plataformImage {
 
-#line2{
-  width: 500px;
-}
+    width: 150px;
+  }
 
-.namepage3 {
-  font-size: 22px;
+  .imagePlata {
+    height: 30px;
+  }
+
+  #logoRAD {
+    width: 150px;
+  }
 
 }
-
-.namepage5 {
-  font-size: 15px;
-
-}
-.sections {
-
-  width: 80px;
-
-}
-
-.imgSections{
-  width: 50px;
-}
-
-.imgSections1{
-  width: 35px;
-}
-
-.imgSections2{
-  width: 32px;
-}
-
-h5{
-  font-size: 12px;
-}
-
-
-.plataformName {
-  width: 150px;
-
-}
-.namePlata {
-  margin-top: 10px;
-  font-size: 12px;
-
-}
-
-.plataformImage {
-
-  width: 150px;
-}
-
-.imagePlata {
-  height: 30px;
-}
-
-#logoRAD{
-  width: 150px;
-}
-
-}
-

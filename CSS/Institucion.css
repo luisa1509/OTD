@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
 .content__ins{
     display: flex;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .group__ins{
+    margin: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,6 +85,8 @@ a{
 
 
 @media screen and (max-width: 900px) {
+
+
     .name__ins{
         font-size: 32px;
         text-align: center;
@@ -133,7 +136,7 @@ a{
     }
     .content__ins{
         display: flex;
-        margin-top: 100px;
+        margin-top: 10px;
         flex-direction: column;
     justify-content: center;
     }
@@ -150,7 +153,13 @@ a{
 }
 
 @media screen and (max-width: 600px) {
+    .content__ins{
+        display: flex;
+        margin-top: 0px;
+    }
+
     .name__ins{
+   
         font-size: 22px;
         text-align: center;
     }

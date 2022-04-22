@@ -1,6 +1,8 @@
 let grupsTeam = [];
 let datos =[];
 
+let loader=document.querySelector(".loader");
+let loaderGeneral =document.querySelector(".loaderGeneral");
 
 const institutionsList = document.querySelector('.content-institutions');
 
@@ -19,11 +21,13 @@ const getDataAsJsonFrom = async (url) => {
     const json = await Papa.parse(raw);
     return json.data;
 }
-
+loader.classList.add('loader--show');
 updateValues();
 setTimeout(
     ()=>{
-        renderInstitutions(grupsTeam)
+        renderInstitutions(grupsTeam);
+        loader.classList.remove('loader--show');
+        loaderGeneral.classList.add('loaderGeneral--hide');
     }
 , 3000);
 //const myTimeout = setTimeout(myGreeting, 5000);
