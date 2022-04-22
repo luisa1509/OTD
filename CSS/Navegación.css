@@ -4,9 +4,8 @@
 
     position: relative;
     display: inline-block;
- 
     height: 34px;
-    margin-right: 20px;
+    margin-right: 132px;
     cursor: pointer;
     z-index: 2;
     font-size:0;
@@ -575,6 +574,13 @@ No funciono jajan't*/
 }
 
 @media screen and (max-width: 900px) {
+    .container-btn-mode{
+
+
+        margin-right: 50px;
+
+      }
+
     .nav__principal{
         width: 100%;
         display: flex;
