@@ -66,9 +66,9 @@ document.getElementById('id-moon').onclick = function(){
   cambiarIconosDark();
   body.classList.add('dark-mode')
   if(graphicsGrups !== null && graphicsGrups !== undefined) graphicsGrups.src="https://app.powerbi.com/view?r=eyJrIjoiYTI4MWQ4ZDQtMjZjZS00MTZmLTk5YjAtZGY1MTk0YTUzNzNmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsConvo !== null && graphicsConvo !== undefined) graphicsConvo.src="https://app.powerbi.com/view?r=eyJrIjoiYTJhMWEwOGQtNDM5MC00MDc3LTg4ZDItZmEwMzM3YjdmNGFmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsInvest !== null && graphicsInvest !== undefined) graphicsInvest.src="https://app.powerbi.com/view?r=eyJrIjoiNmE2YjNiYzEtYjE3Yi00NjA2LTg1NmMtMGYyYTYzNGQyY2I3IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsProyects !== null && graphicsProyects !== undefined) graphicsProyects.src="https://app.powerbi.com/view?r=eyJrIjoiNTE3OTliMGQtMDc5NC00NmI2LWEzZDctNjcxNGJkN2NlN2UzIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsConvo !== null && graphicsConvo !== undefined) graphicsConvo.src="https://app.powerbi.com/view?r=eyJrIjoiYmMwZDU1NDEtOWVhMi00YTkwLWE1YjctNGY4ZTMzMGFiNjI0IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsInvest !== null && graphicsInvest !== undefined) graphicsInvest.src="https://app.powerbi.com/view?r=eyJrIjoiZmMxNjAxMTgtZjIwYi00ZmQ0LTg5MDctNTJhNjU2ZjI2ODBhIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsProyects !== null && graphicsProyects !== undefined) graphicsProyects.src="https://app.powerbi.com/view?r=eyJrIjoiNmY2NDE5NzgtNzUyNy00NzEwLThjNjgtODc1NzAyOThiY2ZmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsProducts !== null && graphicsProducts !== undefined) graphicsProducts.src="https://app.powerbi.com/view?r=eyJrIjoiNjU3MzUzYzktNTk0My00ZDFkLWFiNjAtZTAxMGVhOWM5M2JkIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsCreation !== null && graphicsCreation !== undefined) graphicsCreation.src="https://app.powerbi.com/view?r=eyJrIjoiMjY2YzkyNjgtNzdiNi00YjFkLTk2ZDAtZTUwN2JjY2VlYTI1IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   //console.log( graphicsProducts.src);
