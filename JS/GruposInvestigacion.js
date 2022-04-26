@@ -65,12 +65,12 @@ document.getElementById('id-moon').onclick = function(){
   cambiarLogoDark();
   cambiarIconosDark();
   body.classList.add('dark-mode')
-  if(graphicsGrups !== null && graphicsGrups !== undefined) graphicsGrups.src="https://app.powerbi.com/view?r=eyJrIjoiYTI4MWQ4ZDQtMjZjZS00MTZmLTk5YjAtZGY1MTk0YTUzNzNmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsGrups !== null && graphicsGrups !== undefined) graphicsGrups.src="https://app.powerbi.com/view?r=eyJrIjoiZjdiOWE4MzMtZjQ1ZS00MjBhLWEyODUtNTRjYTQ1OWJlYTVmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsConvo !== null && graphicsConvo !== undefined) graphicsConvo.src="https://app.powerbi.com/view?r=eyJrIjoiYmMwZDU1NDEtOWVhMi00YTkwLWE1YjctNGY4ZTMzMGFiNjI0IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsInvest !== null && graphicsInvest !== undefined) graphicsInvest.src="https://app.powerbi.com/view?r=eyJrIjoiZmMxNjAxMTgtZjIwYi00ZmQ0LTg5MDctNTJhNjU2ZjI2ODBhIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsProyects !== null && graphicsProyects !== undefined) graphicsProyects.src="https://app.powerbi.com/view?r=eyJrIjoiNmY2NDE5NzgtNzUyNy00NzEwLThjNjgtODc1NzAyOThiY2ZmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsProducts !== null && graphicsProducts !== undefined) graphicsProducts.src="https://app.powerbi.com/view?r=eyJrIjoiNjU3MzUzYzktNTk0My00ZDFkLWFiNjAtZTAxMGVhOWM5M2JkIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsCreation !== null && graphicsCreation !== undefined) graphicsCreation.src="https://app.powerbi.com/view?r=eyJrIjoiMjY2YzkyNjgtNzdiNi00YjFkLTk2ZDAtZTUwN2JjY2VlYTI1IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsProducts !== null && graphicsProducts !== undefined) graphicsProducts.src="https://app.powerbi.com/view?r=eyJrIjoiYjFkMTRiMjItMzZkYS00YTc1LTg3MTQtODY5MjNhZWJjNjY5IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsCreation !== null && graphicsCreation !== undefined) graphicsCreation.src="https://app.powerbi.com/view?r=eyJrIjoiMzNjN2ZhMmMtNTRjNi00M2JhLTgwMWQtMDI2YzYwZjIzYjRiIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   //console.log( graphicsProducts.src);
   
   if(nav !== null && nav !== undefined) nav.classList.add('dark-mode');
