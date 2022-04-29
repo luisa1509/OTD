@@ -17,10 +17,11 @@
     flex-wrap: wrap;
     color: #3A3A42;
     align-content: flex-end;
-    background-color: #FFE9CE;
-    
-    
-    
+    background-color: #FFE9CE;   
+}
+
+.institution:hover{
+    background-color: #f3c690;
 }
 
 .institution-title{

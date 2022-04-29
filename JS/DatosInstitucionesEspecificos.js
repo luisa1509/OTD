@@ -22,12 +22,16 @@ function renderGroups (elem) {
 const Group = document.createElement('div');
 Group.classList.add('content__ins');
 Group.innerHTML = `
+<div class="groups">
+<div class="group__logo">
+<img class="imglogo" src="${elem.logoIes}" alt="">
+</div>
 <div class="group__ins">
 <h1 class="name__ins">${elem.institution}</h1>
 <a href="${elem.cvlac}">${elem.cvlac}</a>
 <p class="where"> <strong> Lugar:</strong> ${elem.town}</p>
 </div>
-
+</div>
 <div class="group__as">
     <p class="group__name">Grupo de investigación <br> asociado</p>
     <h1 class="name__groupInst">${elem.name}</h1>

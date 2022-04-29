@@ -101,5 +101,6 @@ lineOfResearch4: grupsItem[21],
 lineOfResearch5: grupsItem[22],
 lineOfResearch6: grupsItem[23],
 numberOfInvest: grupsItem[24],
+logoIes: grupsItem[25],
 }
 }
