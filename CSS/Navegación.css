@@ -554,7 +554,7 @@ No funciono jajan't*/
     align-items: center;
     height: 250px;
     width: 100%;
-    top: 30px;
+    top: 50px;
     z-index: 5;
 }
 
@@ -568,7 +568,7 @@ No funciono jajan't*/
 
 .loader--show{
     display: block;
-    margin-top: 200px;
+    margin-top: 250px;
     z-index: 5;
  
 }
