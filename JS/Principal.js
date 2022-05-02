@@ -5,7 +5,7 @@ const btnprincipal = document.querySelector(".plataform");
 
 btnprincipal.addEventListener("click", function(){
   console.log("hola")
-  window.location.href = './HTMLS/GruposInvestigacion.html'
+  window.location.href = './HTMLS/Tutorial.html'
 });
 
 
