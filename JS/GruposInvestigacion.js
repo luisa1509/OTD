@@ -10,6 +10,7 @@ let graphicsCreation =document.querySelector(".graphicsCreation");
 
 
 
+
 function cambiarLogoDark(){
   document.getElementById("logo").src=".././Imgs/logodark.png";
   document.getElementById("logoRAD").src=".././Imgs/logoRADdark.png";

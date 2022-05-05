@@ -50,11 +50,12 @@ datos = elem;
 console.log(datos)
 const newGroup = document.createElement('div');
 newGroup.classList.add('group');
+newGroup.style="cursor:pointer;";
 newGroup.innerHTML = `
-    <div class="group-info">
+    <div style="cursor:pointer;" class="group-info">
     <h3 class="group-title">${elem.name}</h3>
     </div>
-    <div class="group-cantidad">
+    <div style="cursor:pointer;" class="group-cantidad">
     <img class="group-img" src="./../Imgs/cantidad.png" alt="">
     <p class="group-number">${elem.numberOfInvest}</p>
     </div>

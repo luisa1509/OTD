@@ -179,6 +179,7 @@ input:checked + .slide:before {
     margin-right: 20px;
     margin-top: 10px;
     color: #52525A;
+    cursor: pointer;
 }
 .sections:hover{
     color: white;
@@ -275,12 +276,9 @@ input:checked + .slide:before {
     margin-top: 38px;
     font-family: 'Hind', sans-serif;
     transition:background-color .5s;
-    
+    cursor: pointer;
 
 }
-.buttons:hover i {
-    background: darken(#92122e, 50%);
-  }
 
   
 .buttonInst{
@@ -297,7 +295,7 @@ input:checked + .slide:before {
     margin-right: 20px;
     font-family: 'Hind', sans-serif;
     transition:background-color .5s;
-    
+    cursor: pointer;
 }
 
 .buttonsadd{
@@ -314,7 +312,7 @@ input:checked + .slide:before {
     margin-right: 20px;
     font-family: 'Hind', sans-serif;
     transition:background-color .5s;
-    
+    cursor: pointer;
 
 }
 

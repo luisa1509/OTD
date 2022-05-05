@@ -22,6 +22,7 @@ let imgprojects = document.querySelector(".imgprojects");
 let imgproducts = document.querySelector(".imgproducts");
 let imginvest_creation = document.querySelector(".imginvest_creation");
 
+let here =document.querySelector("sections__here");
 
 
 grupos.addEventListener("click", function(){

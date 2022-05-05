@@ -56,6 +56,7 @@ function renderInstitutions (grupsTeam) {
         datos = elem;
         console.log(datos)
         const newInstitution = document.createElement('div');
+        newInstitution.style="cursor:pointer;";
         newInstitution.classList.add('institution');
         newInstitution.innerHTML = `<h3 class="institution-title">${elem.institution}</h3>`;
         console.log(elem)
