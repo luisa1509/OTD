@@ -22,7 +22,7 @@ let imgprojects = document.querySelector(".imgprojects");
 let imgproducts = document.querySelector(".imgproducts");
 let imginvest_creation = document.querySelector(".imginvest_creation");
 
-let here =document.querySelector("sections__here");
+let here =document.querySelector("here");
 
 
 grupos.addEventListener("click", function(){
@@ -63,6 +63,8 @@ logo.addEventListener("click", function(){
     console.log("hola")
     window.location.href = ".././Principal.html"
 });
+
+
 
 gruposimg.addEventListener("mouseover", whitegrupo, false);
 gruposimg.addEventListener("mouseout", blackgrupo, false);
