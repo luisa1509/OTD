@@ -30,6 +30,7 @@ Group.innerHTML = `
 <h1 class="name__ins">${elem.institution}</h1>
 <a href="${elem.cvlac}">${elem.cvlac}</a>
 <p class="where"> <strong> Lugar:</strong> ${elem.town}</p>
+<p class="where"> <strong> Dirección:</strong> ${elem.direction}</p>
 </div>
 </div>
 <div class="group__as">
