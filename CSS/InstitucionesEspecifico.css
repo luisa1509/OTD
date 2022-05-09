@@ -21,6 +21,7 @@
 }
 
 .institution:hover{
+    transition: background-color .5s;
     background-color: #f3c690;
 }
 
