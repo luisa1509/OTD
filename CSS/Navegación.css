@@ -3,7 +3,8 @@
 .backgroundContainer .outspaceContainer {
     background-color: #CC3454;
 }
-.container-btn-mode{
+
+.container-btn-mode {
 
     position: relative;
     display: inline-block;
@@ -11,80 +12,84 @@
     margin-right: 132px;
     cursor: pointer;
     z-index: 2;
-    font-size:0;
-  }
-  .btn-mode{
+    font-size: 0;
+}
+
+.btn-mode {
     display: inline-block;
     width: 50px;
     height: 30px;
     transition: background-color .5s;
-  }
-  .btn-mode i {
+}
+
+.btn-mode i {
     display: block;
     font-size: 17px;
     text-align: center;
     line-height: 30px;
-  }
-  .btn-mode.sun{
+}
+
+.btn-mode.sun {
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-right: 1px solid transparent;
     background-color: #CC3454;
-  }
+}
 
-  .btn-mode.sun:hover{
-      background-color: #eea7b6;
+.btn-mode.sun:hover {
+    background-color: #eea7b6;
 
-  }
+}
 
-  .id-sun-img{
-    display:block;
-    margin:auto;
+.id-sun-img {
+    display: block;
+    margin: auto;
     margin-top: 4px;
 
-  }
-  .btn-mode.moon{
+}
+
+.btn-mode.moon {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: #2F3786;
-  }
+}
 
-  .btn-mode.moon:hover{
+.btn-mode.moon:hover {
     background-color: #9ca1d1;
 
-  }
+}
 
-  .id-moon-img{
-    display:block;
-    margin:auto;
+.id-moon-img {
+    display: block;
+    margin: auto;
     margin-top: 5px;
-  }
+}
 
-  .active{
-    background-color:#EFD7DC;
-    color:#ffcd5c !important;
-  }
+.active {
+    background-color: #EFD7DC;
+    color: #ffcd5c !important;
+}
 
-  a{
-    color:#ffcd5c; 
-  }
+a {
+    color: #ffcd5c;
+}
 
-.return{
+.return {
     margin-left: 20px;
     margin-bottom: 40px;
 
-  }
+}
 
-body{
+body {
     margin: 0;
     background-color: white;
     font-family: 'Hind', sans-serif;
     overflow-x: hidden;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
 
-.nav__principal{
+.nav__principal {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -92,24 +97,26 @@ body{
     margin: 50px;
 }
 
-.form__label{
+.form__label {
     color: white;
     margin-right: 90px;
-    
+
 }
-input{
-    background-color:#CC3454 ;
+
+input {
+    background-color: #CC3454;
     background-size: cover;
     color: #EFD7DC;
     border-radius: 20px;
     border-color: transparent;
     width: 273px;
     height: 34px;
-    border:0;
-    outline:none;
-    transition:background-color .5s;
+    border: 0;
+    outline: none;
+    transition: background-color .5s;
 }
-::placeholder{
+
+::placeholder {
     color: #DEBFC5;
 }
 
@@ -120,7 +127,11 @@ input{
     height: 34px;
     margin-right: 20px;
 }
-.switchBtn input {display:none;}
+
+.switchBtn input {
+    display: none;
+}
+
 .slide {
     position: absolute;
     cursor: pointer;
@@ -134,9 +145,10 @@ input{
     padding: 8px;
 
 }
-.slide img{
+
+.slide img {
     background-color: transparent;
-    margin:0;
+    margin: 0;
     margin-left: 30px;
 }
 
@@ -152,15 +164,18 @@ input{
     -webkit-transition: .4s;
     transition: .4s;
 }
-input:checked + .slide {
+
+input:checked+.slide {
     background-color: #3A3A42;
 
     padding-left: 40px;
 }
-input:focus + .slide {
+
+input:focus+.slide {
     box-shadow: 0 0 1px #3A3A42;
 }
-input:checked + .slide:before {
+
+input:checked+.slide:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
@@ -168,23 +183,26 @@ input:checked + .slide:before {
     background-color: #6066AA;
 
 }
+
 .slide.round {
     border-radius: 34px;
 }
+
 .slide.round:before {
     border-radius: 50%;
 }
-.body{
+
+.body {
     display: flex;
     flex-direction: row;
 }
 
-.nav__left{
+.nav__left {
     display: flex;
     flex-direction: column;
 }
 
-.sections{
+.sections {
     display: flex;
     flex-direction: row;
     border-radius: 20px;
@@ -194,33 +212,34 @@ input:checked + .slide:before {
     color: #52525A;
     cursor: pointer;
 }
-.sections:hover{
+
+.sections:hover {
     color: white;
-    background-color:#CC3454 ;
-    
-    
+    background-color: #CC3454;
+
+
 }
 
 
-.here{
-    background-color:#CC3454;
+.here {
+    background-color: #CC3454;
     color: white;
 }
 
-.imgs{
+.imgs {
     background-size: cover;
     margin: 15px;
     align-items: center;
 }
 
-.logo{
+.logo {
     background-size: cover;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 30px;
 }
 
-.logoRAD{
+.logoRAD {
     background-size: cover;
     margin-top: 40px;
     margin-left: 50px;
@@ -228,31 +247,31 @@ input:checked + .slide:before {
     margin-bottom: 30px;
 }
 
-.RAD{
+.RAD {
     margin-top: 80px;
 }
 
-.sections__name{
+.sections__name {
     font-size: 13px;
     align-items: center;
     margin-top: 15px;
-    
-    transition:background-color .5s;
+
+    transition: background-color .5s;
 }
 
-.sections__here{
+.sections__here {
     font-size: 13px;
     align-items: center;
     margin-top: 15px;
     color: white;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.sections_name:hover{
+.sections_name:hover {
     color: white;
 }
 
-.content{
+.content {
     width: 75%;
     background-color: #CC3454;
     border-radius: 40px;
@@ -260,23 +279,31 @@ input:checked + .slide:before {
     flex-direction: column;
     margin-bottom: 30px;
     margin-right: 20px;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-.namepage{
+.namepage {   
     font-size: 18px;
     justify-items: center;
     color: white;
-    margin-left: 30px;;
+    margin-left: 30px;
     margin-top: 40px;
 }
 
-.buttons{
+.groupButtons {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.buttons {
     width: 181px;
     height: 31px;
     background: white;
@@ -285,16 +312,15 @@ input:checked + .slide:before {
     color: #CC3454;
     animation: 2s, ease-in;
     border-color: transparent;
-    margin-left: 260px;
     margin-top: 38px;
     font-family: 'Hind', sans-serif;
-    transition:background-color .5s;
+    transition: background-color .5s;
     cursor: pointer;
 
 }
 
-  
-.buttonInst{
+
+.buttonInst {
     width: 181px;
     height: 31px;
     background: white;
@@ -307,11 +333,11 @@ input:checked + .slide:before {
     margin-top: 38px;
     margin-right: 20px;
     font-family: 'Hind', sans-serif;
-    transition:background-color .5s;
+    transition: background-color .5s;
     cursor: pointer;
 }
 
-.buttonsadd{
+.buttonsadd {
     width: 280px;
     height: 31px;
     background: white;
@@ -320,25 +346,24 @@ input:checked + .slide:before {
     color: #CC3454;
     animation: 2s, ease-in;
     border-color: transparent;
-    margin-left: 500px;
     margin-top: 38px;
     margin-right: 20px;
     font-family: 'Hind', sans-serif;
-    transition:background-color .5s;
+    transition: background-color .5s;
     cursor: pointer;
 
 }
 
 
-.graphicsGrups{
+.graphicsGrups {
     background-color: transparent;
 }
 
 .buttons:hover {
     background-color: darken(#6066AA, 6%);
-  }
+}
 
-.graphics{
+.graphics {
     width: auto;
     margin: 20px;
     display: flex;
@@ -346,9 +371,10 @@ input:checked + .slide:before {
     flex-direction: row;
     background-color: white;
 
-    
+
 }
-.graphicone{
+
+.graphicone {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -356,19 +382,19 @@ input:checked + .slide:before {
     width: auto;
     border-radius: 20px;
     margin: 20px;
-    transition:background-color .5s;
-    
+    transition: background-color .5s;
+
 }
 
-.titleone{
-    color:#CC3454;
+.titleone {
+    color: #CC3454;
     margin-left: 50px;
     font-family: 'Hind', sans-serif;
     justify-content: center;
-    
+
 }
 
-.container{
+.container {
     margin: 20px;
     justify-content: center;
 }
@@ -376,24 +402,24 @@ input:checked + .slide:before {
 /*Aqui le decimos a la pagina que no aplique apariencias por defecto*/
 
 .filters input,
-.filters select{
-	appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
+.filters select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     border-color: #CC3454;
     color: #CC3454;
     max-width: 100px;
-	position: relative;
+    position: relative;
     display: inline-block;
-	width: 100%;
-	cursor: pointer;
-  	padding: 7px 10px;
+    width: 100%;
+    cursor: pointer;
+    padding: 7px 10px;
     border-radius: 10px;
     font-family: 'Hind', sans-serif;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.filters{
+.filters {
     align-items: flex-start;
     margin: 10px;
     width: auto;
@@ -402,8 +428,8 @@ input:checked + .slide:before {
 
 }
 
-.filters select:hover{
-	background: #CC3454;
+.filters select:hover {
+    background: #CC3454;
     color: white;
 }
 
@@ -418,148 +444,150 @@ este elemento es un cuadrado que sólo tienen dos bordes
 con color y que giramos con transform: rotate(-45deg);
 No funciono jajan't*/
 
-.filters select i{
-	position: absolute;
-	right: 20px;
-	top: calc(50% - 13px);
-	width: 16px;
-	height: 16px;
-	display: block;
-	border-left:4px solid #CC3454;
-	border-bottom:4px solid #CC3454;
-	transform: rotate(-45deg); /* Giramos el cuadrado */
-	transition: all 0.25s ease;
+.filters select i {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 13px);
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-left: 4px solid #CC3454;
+    border-bottom: 4px solid #CC3454;
+    transform: rotate(-45deg);
+    /* Giramos el cuadrado */
+    transition: all 0.25s ease;
     z-index: 4;
 }
 
-.select:hover i{
-	margin-top: 3px;
-    border-left:4px solid white;
-	border-bottom:4px solid white;
+.select:hover i {
+    margin-top: 3px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
 
 }
 
 /*DARK MODE*/
 
 
-.dark-mode{
+.dark-mode {
     background-color: #17171C;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.dark-mode .form__label{
+.dark-mode .form__label {
     background-color: white;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.dark-mode .input{
-    background-color:#6066AA ;
+.dark-mode .input {
+    background-color: #6066AA;
     background-size: cover;
     color: #9CA1CF;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.dark-mode ::placeholder{
+.dark-mode ::placeholder {
     color: #9CA1CF;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.dark-mode .sections:hover{
-    background-color:#6066AA ;
-    transition:background-color .5s;
-}
-.dark-mode .here{
-    background-color:#6066AA ;
-    transition:background-color .5s;
+.dark-mode .sections:hover {
+    background-color: #6066AA;
+    transition: background-color .5s;
 }
 
-.dark-mode .content{
+.dark-mode .here {
+    background-color: #6066AA;
+    transition: background-color .5s;
+}
+
+.dark-mode .content {
 
     background-color: #3A3A42;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.dark-mode .sections__name{
+.dark-mode .sections__name {
     color: white;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
-.dark-mode .buttons{
+.dark-mode .buttons {
 
     background-color: #6066AA;
     color: white;
     animation: 2s, ease-in;
     border-color: transparent;
-    transition:background-color .5s;
+    transition: background-color .5s;
 
 
 }
 
-.dark-mode .buttonInst{
+.dark-mode .buttonInst {
     background-color: #6066AA;
     color: white;
     animation: 2s, ease-in;
     border-color: transparent;
-    transition:background-color .5s;
-    
+    transition: background-color .5s;
+
 }
 
 
 
-.dark-mode .form__label{
+.dark-mode .form__label {
     background-color: #17171C;
-    transition:background-color .5s;
+    transition: background-color .5s;
 
 }
 
-.dark-mode input{
+.dark-mode input {
     background-color: #3A3A42;
 }
 
-.dark-mode .graphicone{
+.dark-mode .graphicone {
     background-color: #a9a9d3;
 
 }
 
-.dark-mode .filters select{
+.dark-mode .filters select {
     background-color: #6066AA;
     border-color: transparent;
     color: white;
-    transition:background-color .5s;
+    transition: background-color .5s;
 
 }
 
 
-.dark-mode .filters select:hover{
-	background: #9ca1d1;
+.dark-mode .filters select:hover {
+    background: #9ca1d1;
     color: #3A3A42;
 }
 
-.dark-mode .titleone{
-    color:#6066AA;
-    
+.dark-mode .titleone {
+    color: #6066AA;
+
     font-family: 'Hind', sans-serif;
-    
-    
+
+
 }
 
-.dark-mode .buttonInst{
+.dark-mode .buttonInst {
     background-color: #6066AA;
     border-color: transparent;
     color: white;
-    transition:background-color .5s;
-    
+    transition: background-color .5s;
+
 }
 
-.dark-mode .buttonsadd{
+.dark-mode .buttonsadd {
     background-color: #6066AA;
     border-color: transparent;
     color: white;
-    transition:background-color .5s;
+    transition: background-color .5s;
 
 }
 
-.loaderGeneral{
+.loaderGeneral {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -569,30 +597,31 @@ No funciono jajan't*/
     z-index: 5;
 }
 
-.loaderGeneral--hide{
+.loaderGeneral--hide {
     height: 0px;
     width: 0px;
 }
-.loader{
+
+.loader {
     display: none;
 }
 
-.loader--show{
+.loader--show {
     display: block;
     margin-top: 250px;
     z-index: 5;
- 
+
 }
 
 @media screen and (max-width: 900px) {
-    .container-btn-mode{
+    .container-btn-mode {
 
 
         margin-right: 50px;
 
-      }
+    }
 
-    .nav__principal{
+    .nav__principal {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -600,124 +629,125 @@ No funciono jajan't*/
         margin: 50px;
     }
 
-    .sections__name{
+    .sections__name {
         font-size: 11px;
     }
 
-    .sections__here{
+    .sections__here {
         font-size: 11px;
     }
 
-    
-.logoRAD{
- width: 150px;
-}
 
-.namepage{
-    font-size: 15px;
-    width: 500px;
-}
+    .logoRAD {
+        width: 150px;
+    }
 
-.grupoEspecifico{
-    width: 250px;
-    height: 50px;
-}
+    .namepage {
+        font-size: 15px;
+        width: 500px;
+    }
 
-.insEspecifico{
-    width: 250px;
-    height: 50px;
-}
+    .grupoEspecifico {
+        width: 250px;
+        height: 50px;
+    }
 
-.graphicsGrups{
-    height: 1265px;
-}
+    .insEspecifico {
+        width: 250px;
+        height: 50px;
+    }
 
-.graphicsConvo{
-    height: 2045px;
-}
+    .graphicsGrups {
+        height: 1265px;
+    }
 
-  
-.graphicsInvest{
-    height: 2757px;
-}
+    .graphicsConvo {
+        height: 2045px;
+    }
 
-.graphicsProyects{
-    height: 1700px;
-}
 
-.graphicsProducts{
-    height: 875px;
-}
+    .graphicsInvest {
+        height: 2757px;
+    }
 
-.graphicsCreation{
-    height: 795px;
-}
+    .graphicsProyects {
+        height: 1700px;
+    }
 
-.buttonsadd{
-    width: 300px;
-    height: 31px;
-    margin-left: 190px;
-    margin-top: 38px;
-    font-size: 10px;
-    
+    .graphicsProducts {
+        height: 875px;
+    }
 
-}
+    .graphicsCreation {
+        height: 795px;
+    }
+
+    .buttonsadd {
+        width: 300px;
+        height: 31px;
+        margin-left: 190px;
+        margin-top: 38px;
+        font-size: 10px;
+
+
+    }
 }
 
 @media screen and (max-width: 600px) {
 
-    .namepage{
+    .namepage {
         font-size: 12px;
         width: 500px;
     }
-    
-    .grupoEspecifico{
+
+    .grupoEspecifico {
         width: 250px;
         height: 50px;
         margin-left: 100px;
         font-size: 10px;
     }
-    
-    .insEspecifico{
+
+    .insEspecifico {
         width: 250px;
         height: 50px;
         font-size: 10px;
     }
-    
-    .graphicsGrups{
+
+    .graphicsGrups {
         height: 828px;
     }
-    .graphicsConvo{
+
+    .graphicsConvo {
         height: 1538px;
     }
-    
-    .graphicsInvest{
+
+    .graphicsInvest {
         height: 2066px;
     }
 
-    .graphicsProyects{
+    .graphicsProyects {
         height: 1279px;
     }
-    
-    .graphicsProducts{
+
+    .graphicsProducts {
         height: 665px;
     }
 
-    .graphicsCreation{
+    .graphicsCreation {
         height: 606px;
     }
 
-    .nav__left{
-       width: 40%;
+    .nav__left {
+        width: 40%;
     }
-    
-    .buttonsadd{
+
+    .buttonsadd {
         width: 400px;
         height: 31px;
         margin-left: 100px;
         margin-top: 38px;
         font-size: 10px;
-        
-    
+
+
     }
-    }
+}

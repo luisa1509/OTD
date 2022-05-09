@@ -100,9 +100,16 @@ body {
   margin-bottom: 80px;
 }
 
-.animacion1 {
+.ani{
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.animacion {
   margin-left: 30px;
-  width: 40%;
+  width: 50%;
   justify-content: center;
   align-items: center;
 }
