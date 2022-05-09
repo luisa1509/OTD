@@ -1,6 +1,7 @@
 let nav = document.querySelector(".nav_principal");
 let body = document.querySelector("body");
 
+
 let graphicsGrups =document.querySelector(".graphicsGrups");
 let graphicsConvo =document.querySelector(".graphicsConvo");
 let graphicsInvest =document.querySelector(".graphicsInvest");
