@@ -28,7 +28,7 @@ Group.innerHTML = `
 </div>
 <div class="group__ins">
 <h1 class="name__ins">${elem.institution}</h1>
-<a href="${elem.cvlac}">${elem.cvlac}</a>
+<a target="_blank" href="${elem.cvlac}">${elem.cvlac}</a>
 <p class="where"> <strong> Lugar:</strong> ${elem.town}</p>
 <p class="where"> <strong> Dirección:</strong> ${elem.direction}</p>
 </div>

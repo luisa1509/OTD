@@ -2,8 +2,9 @@ let grupsTeam = [];
 let datos;
 
 let loader=document.querySelector(".loader");
-let loaderGeneral =document.querySelector(".loaderGeneral");
 
+
+const loaderGeneral =document.querySelector(".loaderGeneral");
 const groupList = document.querySelector('.content-group');
 const fetchDatabase = async (url) => {
 try {
@@ -72,7 +73,31 @@ newGroup.innerHTML = `
         console.log(datos);
        window.location.href = 'GruposEspecifico.html?cod='+elem.code;
         })
+
+        if(elem.numberOfInvest>15 && elem.numberOfInvest<29){
+            newGroup.style="background-color:#F2CD30;";
+            newGroup.addEventListener("mouseover", function(){
+                newGroup.style="background:darken (#F2CD30, 6%);";
+            });
+            newGroup.addEventListener("mouseout", function(){
+                newGroup.style="background: #F2CD30;";
+            });
+        }
+
+        if(elem.numberOfInvest>30 ){
+            newGroup.style="background-color:#FF9245;";
+            newGroup.addEventListener("mouseover", function(){
+                newGroup.style="background:darken (#FF9245, 6%);";
+            });
+            newGroup.addEventListener("mouseout", function(){
+                newGroup.style="background: #FF9245;";
+            });
+        }
+      
+        
     });
+
+   
 }
 
 function buildGrupsArray(grupsItem) {
@@ -105,3 +130,4 @@ numberOfInvest: grupsItem[24],
 logoIes: grupsItem[25],
 }
 }
+
