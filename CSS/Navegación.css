@@ -275,7 +275,7 @@ input:checked+.slide:before {
 .content {
     width: 75%;
     background-color: #cc3454;
-    border-radius: 0px;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
