@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
 
 .content-group{
+    width: 100%;
     flex: auto;
     flex-wrap: wrap;
     display: flex;
@@ -9,6 +10,13 @@
 
 
 }
+
+.content-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .group{
     margin: 10px;
@@ -79,6 +87,52 @@
 
 }
 
+.colorsContent{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.colorsContent--hide{
+    height: 0px;
+    width: 0px;
+    display: none;
+
+}
+
+.color{
+    display: flex;
+    flex: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.Orange{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: #FF9245;
+}
+
+.yellow{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: #F2CD30;
+}
+
+.banano{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: #FFE9CE;
+}
+
 
 /*DARK MODE*/
 
@@ -128,6 +182,14 @@
     .group-area{
         font-size: 12px;
     }
+
+    .colorsContent{
+
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+       
+    }
     
 
 }
@@ -160,6 +222,14 @@
     
     .group-area{
         font-size: 10px;
+    }
+
+    .colorsContent{
+
+        justify-content: space-around;
+        width: 80%;
+        margin: auto;
+       
     }
     
 

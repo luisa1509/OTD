@@ -6,6 +6,7 @@ let loader=document.querySelector(".loader");
 
 const loaderGeneral =document.querySelector(".loaderGeneral");
 const groupList = document.querySelector('.content-group');
+let colors = document.querySelector('.colorsContent');
 const fetchDatabase = async (url) => {
 try {
 const response = await fetch(url);
@@ -23,11 +24,13 @@ return json.data;
 updateValues();
 
 loader.classList.add('loader--show');
+colors.classList.add('colorsContent--hide');
 setTimeout(
 ()=>{
 renderGroup(grupsTeam); console.log(datos);
 loader.classList.remove('loader--show');
 loaderGeneral.classList.add('loaderGeneral--hide');
+colors.classList.remove('colorsContent--hide');
 }
 , 3000);
 
