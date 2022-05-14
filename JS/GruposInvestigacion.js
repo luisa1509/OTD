@@ -68,7 +68,7 @@ document.getElementById('id-moon').onclick = function(){
   cambiarIconosDark();
   body.classList.add('dark-mode')
   if(graphicsGrups !== null && graphicsGrups !== undefined) graphicsGrups.src="https://app.powerbi.com/view?r=eyJrIjoiZTI3YWM0ZmUtZjZmNC00MjhjLWI5OGYtYjhlNDJmMDNkMGZjIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsConvo !== null && graphicsConvo !== undefined) graphicsConvo.src="https://app.powerbi.com/view?r=eyJrIjoiZjQyMTU5ZWYtZjFlZS00NTM4LWE4YzYtNGI0MmEyNjA4YTNjIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsConvo !== null && graphicsConvo !== undefined) graphicsConvo.src="https://app.powerbi.com/view?r=eyJrIjoiNDBmNTUyNzEtNDY4OC00ZjFmLTg0YjItOTQxYmJkNTM2Zjk0IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsInvest !== null && graphicsInvest !== undefined) graphicsInvest.src=" https://app.powerbi.com/view?r=eyJrIjoiNjMyNDU4N2UtMjYxMS00MmY1LWEwYzctMmU5MGY4YThkNWZhIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsProyects !== null && graphicsProyects !== undefined) graphicsProyects.src="https://app.powerbi.com/view?r=eyJrIjoiMGY1OGFlMzEtMDQxZC00MzcyLWIwYmItMmY5NjE5ZTI4Y2QwIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsProducts !== null && graphicsProducts !== undefined) graphicsProducts.src="https://app.powerbi.com/view?r=eyJrIjoiZjc3NGQ1ODEtNzU0ZC00OTMxLTkwMGQtMzRmNGJhMjVmYzYyIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";

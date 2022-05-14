@@ -274,8 +274,8 @@ input:checked+.slide:before {
 
 .content {
     width: 75%;
-    background-color: #cc3454;
-    border-radius: 40px;
+    background-color: #eaeaea;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
@@ -293,7 +293,7 @@ input:checked+.slide:before {
 .namepage {   
     font-size: 18px;
     justify-items: center;
-    color: white;
+    color: #CC3454;
     margin-left: 30px;
     margin-top: 40px;
 }
