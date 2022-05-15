@@ -308,10 +308,10 @@ input:checked+.slide:before {
 .buttons {
     width: 181px;
     height: 31px;
-    background: white;
+    background: #CC3454;
     border-radius: 10px;
     font-size: 13px;
-    color: #CC3454;
+    color: white;
     animation: 2s, ease-in;
     border-color: transparent;
     margin-top: 38px;
@@ -342,10 +342,10 @@ input:checked+.slide:before {
 .buttonsadd {
     width: 280px;
     height: 31px;
-    background: white;
+    background: #CC3454;
     border-radius: 10px;
     font-size: 13px;
-    color: #CC3454;
+    color: white;
     animation: 2s, ease-in;
     border-color: transparent;
     margin-top: 38px;
@@ -514,6 +514,11 @@ No funciono jajan't*/
     transition: background-color .5s;
 }
 
+.dark-mode  .namepage {
+    color: white;
+
+}
+
 .dark-mode .buttons {
 
     background-color: #6066AA;
@@ -645,6 +650,7 @@ No funciono jajan't*/
     }
 
     .namepage {
+        
         font-size: 15px;
         width: 500px;
     }

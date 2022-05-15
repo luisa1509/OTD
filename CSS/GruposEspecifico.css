@@ -26,7 +26,7 @@
     flex-wrap: wrap;
     color: #3A3A42;
     align-content: flex-end;
-    background-color: #FFE9CE;  
+    background-color: #F6D7B0;  
     
 }
 
@@ -111,6 +111,7 @@
     flex: auto;
     flex-wrap: nowrap;
     align-items: center;
+    color: #CC3454;
 }
 .Orange{
     width: 20px;
@@ -130,7 +131,7 @@
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    background: #FFE9CE;
+    background: #F6D7B0;
 }
 
 
