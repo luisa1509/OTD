@@ -10,14 +10,16 @@ btnprincipal.addEventListener("click", function(){
 
 
 function cambiarImgDark(){
-  document.getElementById("line1").src="./Imgs/LineWhite.png";
-  document.getElementById("line2").src="./Imgs/LineWhite.png";
+  document.getElementById("logoPrincipal").src="./Imgs/logoPrincipal.png";
+  document.getElementById("line").src="./Imgs/Line 38 2.png";
+ 
 
 }
 
 function cambiarImgLight(){
-  document.getElementById("line1").src="./Imgs/LineBlue.png";
-  document.getElementById("line2").src="./Imgs/LineBlue.png";
+  document.getElementById("logoPrincipal").src="./Imgs/logoPrincipal2.png";
+  document.getElementById("line").src="./Imgs/Line 38.png";
+
 
 }
 
@@ -34,6 +36,7 @@ function cambiarLogoLight(){
 document.getElementById('id-sun').onclick = function(){
   cambiarLogoLight();
   cambiarImgLight()
+
   body.classList.remove('dark-mode');
 
   
@@ -46,6 +49,7 @@ con id page y se aplicará el estilo active a la luna*/
 document.getElementById('id-moon').onclick = function(){
   cambiarLogoDark();
   cambiarImgDark()
+
   body.classList.add('dark-mode')
 
  
