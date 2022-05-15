@@ -2,23 +2,26 @@
 .content__ins{
     display: flex;
     margin-top: 0px;
+    background-color: #EAEAEA;
+    border-radius: 20px;
 }
 .group__ins{
     margin: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 
 }
 
 .name__ins{
-    color: white;
+    color: #cc3454;
     font-size: 50px;
     padding-left: 20px;
 }
 
 .where{
-    color: white;
+    color: #cc3454;
     font-size: 14px;
     padding-left: 20px;
 }
@@ -58,7 +61,7 @@
 
 .content__i{
     width: 75%;
-    background-color: #CC3454;
+    background-color: #EAEAEA;
     border-radius: 40px;
     display: flex;
     flex-direction: row;
@@ -68,7 +71,7 @@
 }
 
 a{
-    color:white;
+    color:#cc3454;
     width: 300px;
     font-size: 14px;
     margin-left: 20px;
