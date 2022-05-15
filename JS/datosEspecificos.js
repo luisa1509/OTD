@@ -29,7 +29,7 @@ Group.innerHTML = `
 <h1 class="name__group">${elem.name}</h1>
 <a target="_blank" href="${elem.cvlac}">${elem.cvlac}</a>
 <div class ="numbers">
-<img class ="numberImage" src="../Imgs/número-investWhite.png">
+<img class ="numberImage" src="../Imgs/numero-invest-RAD.png">
 <p class="number__invest">${elem.numberOfInvest}</p>
 </div>
 
