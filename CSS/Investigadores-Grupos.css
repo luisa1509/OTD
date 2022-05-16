@@ -4,15 +4,35 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    
 }
 
 .group {
     margin-left: 50px;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.first{
+    background-color: #cc3454;
+    width: 80%;
+    color: white;
+    padding: 40px;
+    border-radius: 40px;
+
+}
+
+.description{
+    background-color: white;
+    border-radius: 40px;
+    width: 60%;
 
 }
 
 .name__group {
-    color: #cc3454;
+    color: white;
     font-size: 50px;
     padding-right: 20px;
     margin-top: 50px;
@@ -21,7 +41,7 @@
 
 
 .number__invest {
-    color: #cc3454;
+    color: white;
     font-size: 28px;
     padding-left: 5px;
     margin: 0;
@@ -47,14 +67,23 @@
 }
 
 .leader {
-    color: #cc3454;
+    color: white;
     font-size: 14px;
     margin-left: 0px;
     margin-right: 60px;
 }
 
-a {
+.text {
     color: #cc3454;
+    font-size: 14px;
+    margin: 40px;
+    text-align: center;
+    
+
+}
+
+a {
+    color: white;
     font-size: 14px;
     margin-left: 0px;
     text-decoration: none;
