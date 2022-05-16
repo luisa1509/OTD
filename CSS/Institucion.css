@@ -14,14 +14,25 @@
 
 }
 
+
+.groups{
+    background-color: #cc3454;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .name__ins{
-    color: #cc3454;
+    text-align: center;
+    justify-content: center;
+    color: white;
     font-size: 50px;
-    padding-left: 20px;
+    
 }
 
 .where{
-    color: #cc3454;
+    color: white;
     font-size: 14px;
     padding-left: 20px;
 }
@@ -34,8 +45,8 @@
     align-self: center;
     background-color: white;
     border-radius: 40px;
-    width: 500px;
-    margin-right: 50px;
+    width: 80%;
+    margin: 50px;
 }
 
 .group__name{
@@ -71,11 +82,13 @@
 }
 
 a{
-    color:#cc3454;
-    width: 300px;
+    color:white;
+    width: 100%;
     font-size: 14px;
-    margin-left: 20px;
+    margin: auto;
+    
     text-decoration: none;
+    text-align: center;
     }
 
 /*DARK MODE*/
@@ -86,12 +99,29 @@ a{
     transition:background-color .5s;
 }
 
-.groups{
-    margin-top: 50px;
-    width: 60%;
-    display: flex;
-    flex-direction: column;
+.dark-mode .groups{
+    background-color: #6066AA;
+
 }
+
+.dark-mode .content__ins{
+    background-color: #3A3A42;
+}
+
+.dark-mode .group__as{
+    background-color: #7E7E8B;
+}
+
+.dark-mode .group__name{
+    color: white;
+
+}
+
+.dark-mode p{
+    color: white;
+
+}
+
 .group__logo{
   
     display: flex;
@@ -101,6 +131,7 @@ a{
 
 }
 .imglogo{
+    margin-top: 20px;
      width: 40%;
      border-radius: 10px;
 }

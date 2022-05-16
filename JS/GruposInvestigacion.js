@@ -50,8 +50,8 @@ document.getElementById('id-sun').onclick = function(){
   if(graphicsConvo !== null && graphicsConvo !== undefined) graphicsConvo.src="https://app.powerbi.com/view?r=eyJrIjoiNDQ1Y2Q5YTEtMGM2YS00ZTlhLWE3NTUtNzcyZTY3ZDdjNzZkIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsInvest !== null && graphicsInvest !== undefined) graphicsInvest.src="https://app.powerbi.com/view?r=eyJrIjoiOWEzYzJkMWUtNDYxNS00N2MyLThkMWMtMTZhMDExMjFlYWQ3IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsProyects !== null && graphicsProyects !== undefined) graphicsProyects.src="https://app.powerbi.com/view?r=eyJrIjoiZWYzZGM2N2EtMDZkOS00ZDg0LTllN2QtMzY0MzU1NmM5ODVhIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsProducts !== null && graphicsProducts !== undefined) graphicsProducts.src="https://app.powerbi.com/view?r=eyJrIjoiZjA4OTMyZDctMWUwMS00Y2E3LWEwMjItOTZlZTA5NjFhYjg5IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsCreation !== null && graphicsCreation !== undefined) graphicsCreation.src="https://app.powerbi.com/view?r=eyJrIjoiMGI0NWRiNjItYTg4Ni00MTU1LTllNzItYTgxY2FkYThkMWUwIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsProducts !== null && graphicsProducts !== undefined) graphicsProducts.src="https://app.powerbi.com/view?r=eyJrIjoiNTUwNmU5MWUtMGZlMC00Y2RiLTg5OGQtOWVlMjJlNDdlNTIzIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsCreation !== null && graphicsCreation !== undefined) graphicsCreation.src="https://app.powerbi.com/view?r=eyJrIjoiOTQyNWM4ZDctYWM5OS00YjUyLTgxOTYtYzA0OGE5YzYwZTRiIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   
   console.log("darks");
   //console.log( graphicsProducts.src);
@@ -71,8 +71,8 @@ document.getElementById('id-moon').onclick = function(){
   if(graphicsConvo !== null && graphicsConvo !== undefined) graphicsConvo.src="https://app.powerbi.com/view?r=eyJrIjoiNDBmNTUyNzEtNDY4OC00ZjFmLTg0YjItOTQxYmJkNTM2Zjk0IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsInvest !== null && graphicsInvest !== undefined) graphicsInvest.src="https://app.powerbi.com/view?r=eyJrIjoiMDFlNGMxODItMjA4My00YWRkLTg5ZTUtYzE5YWNlNzNmZmVkIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   if(graphicsProyects !== null && graphicsProyects !== undefined) graphicsProyects.src="https://app.powerbi.com/view?r=eyJrIjoiMGY1OGFlMzEtMDQxZC00MzcyLWIwYmItMmY5NjE5ZTI4Y2QwIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsProducts !== null && graphicsProducts !== undefined) graphicsProducts.src="https://app.powerbi.com/view?r=eyJrIjoiZjc3NGQ1ODEtNzU0ZC00OTMxLTkwMGQtMzRmNGJhMjVmYzYyIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
-  if(graphicsCreation !== null && graphicsCreation !== undefined) graphicsCreation.src="https://app.powerbi.com/view?r=eyJrIjoiM2QzMTYzNWMtYTExZi00MTViLWJiMTEtMWUxYzJmODA1M2JmIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsProducts !== null && graphicsProducts !== undefined) graphicsProducts.src="https://app.powerbi.com/view?r=eyJrIjoiOGNlMWE0YmItYmM0My00NmI5LWI0MzgtMjIxODM4ZDlhNThkIiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
+  if(graphicsCreation !== null && graphicsCreation !== undefined) graphicsCreation.src="https://app.powerbi.com/view?r=eyJrIjoiMGMzOTgyZmEtNzJjYy00YjU2LTk3OTYtMjE5ZTY0ZDM3YWU3IiwidCI6ImU5OTQwNzJiLTUyM2UtNGJmZS04NmUyLTQ0MmM1ZTEwYjI0NCIsImMiOjR9";
   //console.log( graphicsProducts.src);
   
   if(nav !== null && nav !== undefined) nav.classList.add('dark-mode');
