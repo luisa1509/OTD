@@ -1,9 +1,15 @@
 
 let body = document.querySelector("body");
 const btnprincipal = document.querySelector(".plataform");
+const btnprincipal2 = document.querySelector(".plataform1");
 
 
 btnprincipal.addEventListener("click", function(){
+  console.log("hola")
+  window.location.href = './HTMLS/GruposInvestigacion.html'
+});
+
+btnprincipal2.addEventListener("click", function(){
   console.log("hola")
   window.location.href = './HTMLS/Tutorial.html'
 });

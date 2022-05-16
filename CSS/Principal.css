@@ -241,6 +241,11 @@ body {
   margin-left: 30px;
   justify-content: center;
   align-items: center;
+  border-style: solid;
+  border: #CC3454;
+  border-width: 10px;
+
+ 
 }
 
 
@@ -311,8 +316,9 @@ body {
 
 .plataform {
   display: flex;
-  justify-content: end;
-  margin-top: 100px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
   cursor: pointer;
 }
 
@@ -320,7 +326,7 @@ body {
   display: flex;
   justify-content: center;
   border-radius: 20px 0 0 20px;
-  background-color: #F9A61A;
+  background-color: #CC3454;
   width: 300px;
 
 }
@@ -338,11 +344,50 @@ body {
 
 .plataformImage {
   border-radius: 0 20px 20px 0;
-  background-color: #FFE9CE;
+  background-color: white;
   width: 300px;
 }
 
 .imagePlata {
+  height: 55px;
+}
+
+
+
+.plataform1 {
+  display: flex;
+  justify-content: end;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.plataformName1 {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px 0 0 20px;
+  background-color: #F9A61A;
+  width: 300px;
+
+}
+
+
+.namePlata1 {
+  font-weight: lighter;
+  font-size: 18px;
+  margin: auto;
+  width: 80%;
+  font-family: 'Hind', sans-serif;
+  margin-top: 17px;
+
+}
+
+.plataformImage1 {
+  border-radius: 0 20px 20px 0;
+  background-color: #FFE9CE;
+  width: 300px;
+}
+
+.imagePlata1 {
   height: 55px;
 }
 

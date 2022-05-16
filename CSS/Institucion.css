@@ -73,11 +73,11 @@
 .content__i{
     width: 75%;
     background-color: #EAEAEA;
-    border-radius: 40px;
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
     margin-right: 20px;
+    border-radius: 20px;
 
 }
 
