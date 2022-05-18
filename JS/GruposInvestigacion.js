@@ -70,7 +70,7 @@ document.getElementById('id-sun').onclick = function(){
  
 
   //grupos de investigación
-if(params !== null && params !== undefined && params=="/HTMLS/GruposInvestigacion.html"){
+if(params !== null && params !== undefined && params=="GruposInvestigacion.html"){
 
   imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
   imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
