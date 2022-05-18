@@ -70,7 +70,7 @@ document.getElementById('id-sun').onclick = function(){
  
 
   //grupos de investigación
-if(params !== null && params !== undefined && params=="GruposInvestigacion.html"){
+if(params !== null && params !== undefined && params=="/HTMLS/GruposInvestigacion.html"){
 
   imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
   imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
@@ -157,7 +157,7 @@ if(params !== null && params !== undefined  && params=="/HTMLS/Convocatorias.htm
   imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
 
   gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
     
   });
 
@@ -234,7 +234,7 @@ if(params !== null && params !== undefined  && params=="/HTMLS/InvestigadoresGen
   imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
 
   gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
     
   });
 
@@ -311,7 +311,7 @@ if(params !== null && params !== undefined  && params=="/HTMLS/Proyectos.html"){
   imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
   
   gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
     
   });
 
@@ -388,7 +388,7 @@ if(params !== null && params !== undefined  && params=="/HTMLS/Productos.html"){
   imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
   
   gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
     
   });
 
@@ -464,7 +464,7 @@ if(params !== null && params !== undefined  && params=="/HTMLS/InvestigacionCrea
   imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
   
   gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
     
   });
 
