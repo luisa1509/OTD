@@ -317,7 +317,6 @@ body {
 .plataform {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   margin-bottom: 20px;
   cursor: pointer;
 }
@@ -572,11 +571,14 @@ body {
   transition: background-color .5s;
 }
 
-
+.dark-mode .plataformName{
+  background-color: #6066AA;
+  transition: background-color .5s;
+}
 
 .dark-mode .observatory {
 
-  background-color: #6066AA;
+  background-color: #7E7E8B;
   transition: background-color .5s;
 }
 
@@ -589,7 +591,7 @@ body {
 
 .dark-mode .section {
 
-  background-color: #6066AA;
+  background-color: #7E7E8B;
   transition: background-color .5s;
 }
 
