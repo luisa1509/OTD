@@ -554,6 +554,7 @@ document.getElementById('id-moon').onclick = function(){
   //Grupos de investigación
   if(params !== null && params !== undefined && params=="/HTMLS/GruposInvestigacion.html"){
   
+
     convos.addEventListener("mouseover", function(){
       imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
       
@@ -908,7 +909,13 @@ if(params !== null && params !== undefined  && params=="/HTMLS/InvestigacionCrea
 
 //grupos de investigación
 if(params !== null && params !== undefined && params=="/HTMLS/GruposInvestigacion.html"){
-  
+  imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+  imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+  imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+  imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+  imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+  imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
   convos.addEventListener("mouseover", function(){
     imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
     
@@ -969,6 +976,14 @@ if(params !== null && params !== undefined && params=="/HTMLS/GruposInvestigacio
 //convocatorias
 if(params !== null && params !== undefined  && params=="/HTMLS/Convocatorias.html"){
   
+
+  imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+  imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
+  imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+  imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+  imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+  imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
   gruposs.addEventListener("mouseover", function(){
     imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
     
@@ -1029,6 +1044,13 @@ if(params !== null && params !== undefined  && params=="/HTMLS/Convocatorias.htm
 //investigadores
 if(params !== null && params !== undefined  && params=="/HTMLS/InvestigadoresGeneral.html"){
   
+  imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+  imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+  imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
+  imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+  imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+  imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
   gruposs.addEventListener("mouseover", function(){
     imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
     
@@ -1087,6 +1109,13 @@ if(params !== null && params !== undefined  && params=="/HTMLS/InvestigadoresGen
 //proyectos
 if(params !== null && params !== undefined  && params=="/HTMLS/Proyectos.html"){
   
+  imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+  imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+  imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+  imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
+  imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+  imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
   gruposs.addEventListener("mouseover", function(){
     imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
     
@@ -1146,6 +1175,13 @@ if(params !== null && params !== undefined  && params=="/HTMLS/Proyectos.html"){
 //productos
 if(params !== null && params !== undefined  && params=="/HTMLS/Productos.html"){
   
+  imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+  imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+  imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+  imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+  imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
+  imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
   gruposs.addEventListener("mouseover", function(){
     imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
     
@@ -1204,6 +1240,13 @@ if(params !== null && params !== undefined  && params=="/HTMLS/Productos.html"){
 //investigación Creación
 if(params !== null && params !== undefined  && params=="/HTMLS/InvestigacionCreacion.html"){
   
+  imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+  imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+  imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+  imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+  imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+  imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
+
   gruposs.addEventListener("mouseover", function(){
     imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
     
