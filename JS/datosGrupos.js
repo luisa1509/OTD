@@ -3,6 +3,7 @@ let datos;
 
 let loader=document.querySelector(".loader");
 
+const filter=document.querySelector(".filters");
 
 const loaderGeneral =document.querySelector(".loaderGeneral");
 const groupList = document.querySelector('.content-group');
