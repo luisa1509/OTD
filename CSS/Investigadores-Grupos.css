@@ -9,25 +9,35 @@
 
 .group {
     margin-left: 50px;
-    flex: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+    transition: background-color .5s;
 
 }
 
 .first{
     background-color: #cc3454;
-    width: 80%;
+    width: 400px;
     color: white;
     padding: 40px;
-    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
+
+
 
 }
 
 .description{
     background-color: white;
     border-radius: 40px;
-    width: 60%;
+    width: 40%;
+    padding: 40px;
+    margin: auto;
 
 }
 
@@ -56,7 +66,7 @@
 }
 
 .numbers {
-    display: flex;
+    
     align-items: center;
 }
 
@@ -70,7 +80,7 @@
     color: white;
     font-size: 14px;
     margin-left: 0px;
-    margin-right: 60px;
+ 
 }
 
 .text {
@@ -124,6 +134,45 @@ a {
     border: 1px solid #F9A61A;
     padding: 0;
     margin: 0;
+}
+
+.dark-mode .group {
+    background-color: #3A3A42;
+
+    transition: background-color .5s;
+
+}
+
+.dark-mode .first{
+    background-color: #6066AA;
+    color: white;
+    transition: background-color .5s;
+  
+
+}
+
+.dark-mode .description{
+    background-color: #7E7E8B;
+    color: white;
+    transition: background-color .5s;
+ 
+}
+
+.dark-mode .text{
+    color: white;
+ 
+}
+
+
+.dark-mode .name__group {
+    color: white;
+ 
+}
+
+
+.dark-mode .number__invest {
+    color: white;
+
 }
 
 

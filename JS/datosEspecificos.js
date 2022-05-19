@@ -31,6 +31,7 @@ Group.innerHTML = `
 <a target="_blank" href="${elem.cvlac}">${elem.cvlac}</a>
 <div class ="numbers">
 <img class ="numberImage" src="../Imgs/número-investWhite.png">
+<p class="number__invest">Cantidad de investigadores:</p>
 <p class="number__invest">${elem.numberOfInvest}</p>
 </div>
 <h3 class="areas">${elem.area1}</h3>
