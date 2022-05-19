@@ -78,22 +78,28 @@ newGroup.innerHTML = `
         })
 
         if(elem.numberOfInvest>15 && elem.numberOfInvest<29){
-            newGroup.style="background-color:#F2CD30;";
+            newGroup.style="background-color:#E0B8BF;";
+            
+            
             newGroup.addEventListener("mouseover", function(){
-                newGroup.style="background:darken (#F2CD30, 6%);";
+                
+                newGroup.style="background:darken (#E0B8BF, 6%);";
             });
             newGroup.addEventListener("mouseout", function(){
-                newGroup.style="background: #F2CD30;";
+                newGroup.style="background: #E0B8BF;";
             });
         }
 
         if(elem.numberOfInvest>30 ){
-            newGroup.style="background-color:#FF9245;";
+            newGroup.style="background-color:#DD8E9C;";
+            
+            
             newGroup.addEventListener("mouseover", function(){
-                newGroup.style="background:darken (#FF9245, 6%);";
+                newGroup.style="background:darken (#DD8E9C, 6%);";
+                
             });
             newGroup.addEventListener("mouseout", function(){
-                newGroup.style="background: #FF9245;";
+                newGroup.style="background: #DD8E9C;";
             });
         }
       

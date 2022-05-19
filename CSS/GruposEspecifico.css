@@ -20,19 +20,19 @@
 
 .group{
     margin: 10px;
-    width: 300px;
+    width: 260px;
     
     border-radius: 20px;
     flex-wrap: wrap;
     color: #3A3A42;
     align-content: flex-end;
-    background-color: #F6D7B0;  
+    background-color: #EAD9DC;  
     
 }
 
 .group:hover{
     transition: background-color .5s;
-    background-color: #f3c690;
+    
 }
 
 
@@ -117,21 +117,21 @@
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    background: #FF9245;
+    background: #DD8E9C;
 }
 
 .yellow{
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    background: #F2CD30;
+    background: #E0B8BF;
 }
 
 .banano{
     width: 20px;
     height: 20px;
     margin-right: 10px;
-    background: #F6D7B0;
+    background: #EAD9DC;
 }
 
 
@@ -143,15 +143,11 @@
     transition: background-color .5s;
   }
   
-  
-  
-  .dark-mode .group {
-  
-    background-color: #CCCFF1;
- 
-    transition: background-color .5s;
 
-  }
+  .dark-mode .color{
+
+    color: white;
+}
 
 
   @media screen and (max-width: 900px) {
