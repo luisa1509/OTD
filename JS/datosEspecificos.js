@@ -38,7 +38,7 @@ Group.innerHTML = `
 <p class="leader"> <strong> Líder:</strong> ${elem.leader}</p>
 <p class="leader"> <strong> Lugar:</strong> ${elem.town}</p>
 <p class="leader"> <strong> Año de conformación:</strong> ${elem.creationYear}</p>
-<p class="leader"> <strong> Línea de investigación:</strong> ${elem.lineOfResearch}</p>
+<p class="leader"> <strong> Línea de investigación:</strong> ${elem.lineOfResearch}, ${elem.lineOfResearch1}, ${elem.lineOfResearch2}, ${elem.lineOfResearch3}, ${elem.lineOfResearch4}</p>
 </div>
 <div class="description">
 <p class="text"> <strong> Descripción:</strong> ${elem.description}</p>
