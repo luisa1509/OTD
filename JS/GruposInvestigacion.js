@@ -52,6 +52,363 @@ let invest_creations= document.querySelector(".invest_creation");
 var params = window.location.pathname;
 console.log(params);
 
+//grupos de investigación
+if(params !== null && params !== undefined && params=="/HTMLS/GruposInvestigacion.html"){
+  
+  convos.addEventListener("mouseover", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
+    
+  });
+
+  convos.addEventListener("mouseout", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+
+  });
+
+  investis.addEventListener("mouseover", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
+   
+    
+  });
+
+  investis.addEventListener("mouseout", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+
+  });
+
+  projectss.addEventListener("mouseover", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
+   
+    
+  });
+
+  projectss.addEventListener("mouseout", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+
+  });
+
+  productss.addEventListener("mouseover", function(){
+    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
+   
+    
+  });
+
+  productss.addEventListener("mouseout", function(){
+    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+
+  });
+
+  invest_creations.addEventListener("mouseover", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
+   
+    
+  });
+
+  invest_creations.addEventListener("mouseout", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
+  });
+
+}
+
+
+//convocatorias
+if(params !== null && params !== undefined  && params=="/HTMLS/Convocatorias.html"){
+  
+  gruposs.addEventListener("mouseover", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    
+  });
+
+  gruposs.addEventListener("mouseout", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+
+  });
+
+  investis.addEventListener("mouseover", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
+   
+    
+  });
+
+  investis.addEventListener("mouseout", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+
+  });
+
+  projectss.addEventListener("mouseover", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
+   
+    
+  });
+
+  projectss.addEventListener("mouseout", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+
+  });
+
+  productss.addEventListener("mouseover", function(){
+    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
+   
+    
+  });
+
+  productss.addEventListener("mouseout", function(){
+    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+
+  });
+
+  invest_creations.addEventListener("mouseover", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
+   
+    
+  });
+
+  invest_creations.addEventListener("mouseout", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
+  });
+
+}
+
+
+//investigadores
+if(params !== null && params !== undefined  && params=="/HTMLS/InvestigadoresGeneral.html"){
+  
+  gruposs.addEventListener("mouseover", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    
+  });
+
+  gruposs.addEventListener("mouseout", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+
+  });
+
+  convos.addEventListener("mouseover", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
+    
+  });
+
+  convos.addEventListener("mouseout", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+
+  });
+
+  projectss.addEventListener("mouseover", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
+   
+    
+  });
+
+  projectss.addEventListener("mouseout", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+
+  });
+
+  productss.addEventListener("mouseover", function(){
+    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
+   
+    
+  });
+
+  productss.addEventListener("mouseout", function(){
+    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+
+  });
+
+  invest_creations.addEventListener("mouseover", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
+   
+    
+  });
+
+  invest_creations.addEventListener("mouseout", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
+  });
+
+}
+
+//proyectos
+if(params !== null && params !== undefined  && params=="/HTMLS/Proyectos.html"){
+  
+  gruposs.addEventListener("mouseover", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    
+  });
+
+  gruposs.addEventListener("mouseout", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+
+  });
+
+  convos.addEventListener("mouseover", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
+    
+  });
+
+  convos.addEventListener("mouseout", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+
+  });
+
+  investis.addEventListener("mouseover", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
+   
+    
+  });
+
+  investis.addEventListener("mouseout", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+
+  });
+
+  productss.addEventListener("mouseover", function(){
+    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
+   
+    
+  });
+
+  productss.addEventListener("mouseout", function(){
+    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+
+  });
+
+  invest_creations.addEventListener("mouseover", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
+   
+    
+  });
+
+  invest_creations.addEventListener("mouseout", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
+  });
+
+}
+
+
+//productos
+if(params !== null && params !== undefined  && params=="/HTMLS/Productos.html"){
+  
+  gruposs.addEventListener("mouseover", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    
+  });
+
+  gruposs.addEventListener("mouseout", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+
+  });
+
+  convos.addEventListener("mouseover", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
+    
+  });
+
+  convos.addEventListener("mouseout", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+
+  });
+
+  investis.addEventListener("mouseover", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
+   
+    
+  });
+
+  investis.addEventListener("mouseout", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+
+  });
+
+  projectss.addEventListener("mouseover", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
+   
+    
+  });
+
+  projectss.addEventListener("mouseout", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+
+  });
+
+  invest_creations.addEventListener("mouseover", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
+   
+    
+  });
+
+  invest_creations.addEventListener("mouseout", function(){
+    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
+  });
+
+}
+
+//investigación Creación
+if(params !== null && params !== undefined  && params=="/HTMLS/InvestigacionCreacion.html"){
+  
+  gruposs.addEventListener("mouseover", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
+    
+  });
+
+  gruposs.addEventListener("mouseout", function(){
+    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
+
+  });
+
+  convos.addEventListener("mouseover", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
+    
+  });
+
+  convos.addEventListener("mouseout", function(){
+    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
+
+  });
+
+  investis.addEventListener("mouseover", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
+   
+    
+  });
+
+  investis.addEventListener("mouseout", function(){
+    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
+
+  });
+
+  projectss.addEventListener("mouseover", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
+   
+    
+  });
+
+  projectss.addEventListener("mouseout", function(){
+    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
+
+  });
+
+ 
+  productss.addEventListener("mouseover", function(){
+    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
+   
+    
+  });
+
+  productss.addEventListener("mouseout", function(){
+    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
+
+  });
+
+}
+
+
+
+
 document.getElementById('id-sun').onclick = function(){
 
   cambiarLogoLight();
@@ -904,359 +1261,4 @@ if(params !== null && params !== undefined  && params=="/HTMLS/InvestigacionCrea
 
 }
 }
-
-//grupos de investigación
-if(params !== null && params !== undefined && params=="/HTMLS/GruposInvestigacion.html"){
-  
-  convos.addEventListener("mouseover", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
-    
-  });
-
-  convos.addEventListener("mouseout", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
-
-  });
-
-  investis.addEventListener("mouseover", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
-   
-    
-  });
-
-  investis.addEventListener("mouseout", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
-
-  });
-
-  projectss.addEventListener("mouseover", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
-   
-    
-  });
-
-  projectss.addEventListener("mouseout", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
-
-  });
-
-  productss.addEventListener("mouseover", function(){
-    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
-   
-    
-  });
-
-  productss.addEventListener("mouseout", function(){
-    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
-
-  });
-
-  invest_creations.addEventListener("mouseover", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
-   
-    
-  });
-
-  invest_creations.addEventListener("mouseout", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
-
-  });
-
-}
-
-
-//convocatorias
-if(params !== null && params !== undefined  && params=="/HTMLS/Convocatorias.html"){
-  
-  gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
-    
-  });
-
-  gruposs.addEventListener("mouseout", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
-
-  });
-
-  investis.addEventListener("mouseover", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
-   
-    
-  });
-
-  investis.addEventListener("mouseout", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
-
-  });
-
-  projectss.addEventListener("mouseover", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
-   
-    
-  });
-
-  projectss.addEventListener("mouseout", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
-
-  });
-
-  productss.addEventListener("mouseover", function(){
-    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
-   
-    
-  });
-
-  productss.addEventListener("mouseout", function(){
-    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
-
-  });
-
-  invest_creations.addEventListener("mouseover", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
-   
-    
-  });
-
-  invest_creations.addEventListener("mouseout", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
-
-  });
-
-}
-
-
-//investigadores
-if(params !== null && params !== undefined  && params=="/HTMLS/InvestigadoresGeneral.html"){
-  
-  gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
-    
-  });
-
-  gruposs.addEventListener("mouseout", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
-
-  });
-
-  convos.addEventListener("mouseover", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
-    
-  });
-
-  convos.addEventListener("mouseout", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
-
-  });
-
-  projectss.addEventListener("mouseover", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
-   
-    
-  });
-
-  projectss.addEventListener("mouseout", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
-
-  });
-
-  productss.addEventListener("mouseover", function(){
-    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
-   
-    
-  });
-
-  productss.addEventListener("mouseout", function(){
-    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
-
-  });
-
-  invest_creations.addEventListener("mouseover", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
-   
-    
-  });
-
-  invest_creations.addEventListener("mouseout", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
-
-  });
-
-}
-
-//proyectos
-if(params !== null && params !== undefined  && params=="/HTMLS/Proyectos.html"){
-  
-  gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
-    
-  });
-
-  gruposs.addEventListener("mouseout", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
-
-  });
-
-  convos.addEventListener("mouseover", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
-    
-  });
-
-  convos.addEventListener("mouseout", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
-
-  });
-
-  investis.addEventListener("mouseover", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
-   
-    
-  });
-
-  investis.addEventListener("mouseout", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
-
-  });
-
-  productss.addEventListener("mouseover", function(){
-    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
-   
-    
-  });
-
-  productss.addEventListener("mouseout", function(){
-    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
-
-  });
-
-  invest_creations.addEventListener("mouseover", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
-   
-    
-  });
-
-  invest_creations.addEventListener("mouseout", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
-
-  });
-
-}
-
-
-//productos
-if(params !== null && params !== undefined  && params=="/HTMLS/Productos.html"){
-  
-  gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
-    
-  });
-
-  gruposs.addEventListener("mouseout", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
-
-  });
-
-  convos.addEventListener("mouseover", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
-    
-  });
-
-  convos.addEventListener("mouseout", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
-
-  });
-
-  investis.addEventListener("mouseover", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
-   
-    
-  });
-
-  investis.addEventListener("mouseout", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
-
-  });
-
-  projectss.addEventListener("mouseover", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
-   
-    
-  });
-
-  projectss.addEventListener("mouseout", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
-
-  });
-
-  invest_creations.addEventListener("mouseover", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionwhite.png");
-   
-    
-  });
-
-  invest_creations.addEventListener("mouseout", function(){
-    imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
-
-  });
-
-}
-
-//investigación Creación
-if(params !== null && params !== undefined  && params=="/HTMLS/InvestigacionCreacion.html"){
-  
-  gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
-    
-  });
-
-  gruposs.addEventListener("mouseout", function(){
-    imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
-
-  });
-
-  convos.addEventListener("mouseover", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
-    
-  });
-
-  convos.addEventListener("mouseout", function(){
-    imgconvo.setAttribute("src",".././Imgs/convocatoriasblack.png");
-
-  });
-
-  investis.addEventListener("mouseover", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoreswhite.png");
-   
-    
-  });
-
-  investis.addEventListener("mouseout", function(){
-    imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
-
-  });
-
-  projectss.addEventListener("mouseover", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionwhite.png");
-   
-    
-  });
-
-  projectss.addEventListener("mouseout", function(){
-    imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
-
-  });
-
- 
-  productss.addEventListener("mouseover", function(){
-    imgproducts.setAttribute("src",".././Imgs/productoswhite.png");
-   
-    
-  });
-
-  productss.addEventListener("mouseout", function(){
-    imgproducts.setAttribute("src",".././Imgs/productosblack.png");
-
-  });
-
-}
-
 
