@@ -403,22 +403,24 @@ input:checked+.slide:before {
 
 /*Aqui le decimos a la pagina que no aplique apariencias por defecto*/
 
-.filters input,
-.filters select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+
+.filter{
+
     border-color: #CC3454;
+    background: #eaeaea;
     color: #CC3454;
-    max-width: 100px;
+    max-width: 150px;
     position: relative;
     display: inline-block;
     width: 100%;
     cursor: pointer;
-    padding: 7px 10px;
+    padding: 5px 10px;
     border-radius: 10px;
+    border-width: 3px;
     font-family: 'Hind', sans-serif;
     transition: background-color .5s;
+    font-size: 13px;
+    margin-top: 40px;
 }
 
 .filters {
@@ -430,43 +432,13 @@ input:checked+.slide:before {
 
 }
 
-.filters select:hover {
+.filter select:hover {
     background: #CC3454;
     color: white;
 }
 
-/* Eliminamos la fecha que por defecto aparece en el desplegable */
-.filters select::-ms-expand {
-    display: none;
-}
 
-/* 
-Creamos la fecha que aparece a la izquierda del select.
-este elemento es un cuadrado que sólo tienen dos bordes 
-con color y que giramos con transform: rotate(-45deg);
-No funciono jajan't*/
 
-.filters select i {
-    position: absolute;
-    right: 20px;
-    top: calc(50% - 13px);
-    width: 16px;
-    height: 16px;
-    display: block;
-    border-left: 4px solid #CC3454;
-    border-bottom: 4px solid #CC3454;
-    transform: rotate(-45deg);
-    /* Giramos el cuadrado */
-    transition: all 0.25s ease;
-    z-index: 4;
-}
-
-.select:hover i {
-    margin-top: 3px;
-    border-left: 4px solid white;
-    border-bottom: 4px solid white;
-
-}
 
 /*DARK MODE*/
 
