@@ -514,38 +514,38 @@ if(params !== null && params !== undefined  && params=="/HTMLS/Convocatorias.htm
   imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
 
   gruposs.addEventListener("mouseover", function(){
-    imggrupo.setAttribute("src","/.././Imgs/grupowhite.png");
+    imggrupo.setAttribute("src","./.././Imgs/grupowhite.png");
     
   });
 
   gruposs.addEventListener("mouseout", function(){
-    imggrupo.setAttribute("src","/.././Imgs/grupoblack.png");
+    imggrupo.setAttribute("src","./.././Imgs/grupoblack.png");
 
   });
 
   convos.addEventListener("mouseover", function(){
-    imgconvo.setAttribute("src","/.././Imgs/convocatoriaswhite.png");
+    imgconvo.setAttribute("src","./.././Imgs/convocatoriaswhite.png");
     
   });
 
   convos.addEventListener("mouseout", function(){
-    imgconvo.setAttribute("src","/.././Imgs/convocatoriaswhite.png");
+    imgconvo.setAttribute("src","./.././Imgs/convocatoriaswhite.png");
 
   });
 
   investis.addEventListener("mouseover", function(){
-    imginvesti.setAttribute("src","/.././Imgs/investigadoreswhite.png");
+    imginvesti.setAttribute("src","./.././Imgs/investigadoreswhite.png");
    
     
   });
 
   investis.addEventListener("mouseout", function(){
-    imginvesti.setAttribute("src","/.././Imgs/investigadoresblack.png");
+    imginvesti.setAttribute("src","./.././Imgs/investigadoresblack.png");
 
   });
 
   projectss.addEventListener("mouseover", function(){
-    imgprojects.setAttribute("src","/.././Imgs/proyectosdeinvestigacionwhite.png");
+    imgprojects.setAttribute("src","./.././Imgs/proyectosdeinvestigacionwhite.png");
    
     
   });
