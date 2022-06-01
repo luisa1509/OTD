@@ -506,12 +506,7 @@ if(params !== null && params !== undefined && params=="/HTMLS/GruposInvestigacio
 //convocatorias
 if(params !== null && params !== undefined  && params=="/HTMLS/Convocatorias.html"){
   
-  imggrupo.setAttribute("src",".././Imgs/grupoblack.png");
-  imgconvo.setAttribute("src",".././Imgs/convocatoriaswhite.png");
-  imginvesti.setAttribute("src",".././Imgs/investigadoresblack.png");
-  imgprojects.setAttribute("src",".././Imgs/proyectosdeinvestigacionblack.png");
-  imgproducts.setAttribute("src",".././Imgs/productosblack.png");
-  imginvest_creation.setAttribute("src",".././Imgs/creacionblack.png");
+
 
   gruposs.addEventListener("mouseover", function(){
     imggrupo.setAttribute("src",".././Imgs/grupowhite.png");
