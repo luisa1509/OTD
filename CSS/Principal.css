@@ -330,6 +330,10 @@ body {
 
 }
 
+.plataformName:hover {
+  background-color: #e7728c;
+}
+
 
 .namePlata {
   font-weight: lighter;
@@ -367,6 +371,10 @@ body {
   background-color: #F9A61A;
   width: 300px;
 
+}
+
+.plataformName1:hover {
+  background-color: #a26a0a;
 }
 
 
@@ -739,9 +747,7 @@ body {
   width: 90px;
 }
 
-.plataformName:hover {
-  background-color: #ce8200;
-}
+
 
 @media screen and (max-width: 900px) {
 
